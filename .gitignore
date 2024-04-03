@@ -1,0 +1,17 @@
+# Ignore all these files when you call git status
+
+# Ignore all of these file extensions regardless of directory:
+**.pdf
+**.DS_Store
+**__pycache__
+**.ai
+**.ipynb_checkpoints
+**.hdf5
+**.psd
+**.pkl
+**.zip
+
+# Ignore any folders with this name
+**/tmp/
+**/wav/
+**/xcuserdata/
