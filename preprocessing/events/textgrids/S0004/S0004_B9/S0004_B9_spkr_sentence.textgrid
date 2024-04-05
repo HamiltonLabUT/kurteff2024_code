@@ -1,0 +1,322 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 511.0353125 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "sentences" 
+        xmin = 0 
+        xmax = 511.0353125 
+        intervals: size = 77 
+        intervals [1]:
+            xmin = 0 
+            xmax = 25.873875 
+            text = "sp" 
+        intervals [2]:
+            xmin = 25.873875 
+            xmax = 28.993875 
+            text = "THE WATER CONTAINED TOO MUCH CHLORINE AND STUNG HIS EYES" 
+        intervals [3]:
+            xmin = 28.993875 
+            xmax = 38.2129375 
+            text = "sp" 
+        intervals [4]:
+            xmin = 38.2129375 
+            xmax = 40.94975 
+            text = "JOHNS BROTHER REPAINTED THE GARBAGE DOOR" 
+        intervals [5]:
+            xmin = 40.94975 
+            xmax = 48.7851875 
+            text = "sp" 
+        intervals [6]:
+            xmin = 48.7851875 
+            xmax = 50.6351875 
+            text = "CHALLENGE EACH GENERALS INTELLIGENCE" 
+        intervals [7]:
+            xmin = 50.6351875 
+            xmax = 71.0823125 
+            text = "sp" 
+        intervals [8]:
+            xmin = 71.0823125 
+            xmax = 74.3423125 
+            text = "AMBIDEXTROUS PICKPOCKETS ACCOMPLISH MORE" 
+        intervals [9]:
+            xmin = 74.3423125 
+            xmax = 85.6169375 
+            text = "sp" 
+        intervals [10]:
+            xmin = 85.6169375 
+            xmax = 88.6669375 
+            text = "A MUSCULAR ABDOMEN IS GOOD FOR YOUR BACK" 
+        intervals [11]:
+            xmin = 88.6669375 
+            xmax = 99.5971875 
+            text = "sp" 
+        intervals [12]:
+            xmin = 99.5971875 
+            xmax = 102.1771875 
+            text = "THEY OWN A BIG HOUSE IN THE REMOTE COUNTRYSIDE" 
+        intervals [13]:
+            xmin = 102.1771875 
+            xmax = 109.91075 
+            text = "sp" 
+        intervals [14]:
+            xmin = 109.91075 
+            xmax = 111.63075 
+            text = "THE ROSE CORSAGE SMELLED SWEET" 
+        intervals [15]:
+            xmin = 111.63075 
+            xmax = 120.3743125 
+            text = "sp" 
+        intervals [16]:
+            xmin = 120.3743125 
+            xmax = 122.2843125 
+            text = "THAT PICKPOCKET WAS CAUGHT RED HANDED" 
+        intervals [17]:
+            xmin = 122.2843125 
+            xmax = 131.809875 
+            text = "sp" 
+        intervals [18]:
+            xmin = 131.809875 
+            xmax = 135.799875 
+            text = "AN ADULT MALE BABOONS TEETH ARE NOT SUITABLE FOR EATING SHELLFISH" 
+        intervals [19]:
+            xmin = 135.799875 
+            xmax = 144.8108125 
+            text = "sp" 
+        intervals [20]:
+            xmin = 144.8108125 
+            xmax = 147.4008125 
+            text = "HER WARDROBE CONSISTS OF ONLY SKIRTS AND BLOUSES" 
+        intervals [21]:
+            xmin = 147.4008125 
+            xmax = 155.7736875 
+            text = "sp" 
+        intervals [22]:
+            xmin = 155.7736875 
+            xmax = 158.0736875 
+            text = "THE TWO ARTIST IS EXCHANGED AUTOGRAPHS" 
+        intervals [23]:
+            xmin = 158.0736875 
+            xmax = 167.986125 
+            text = "sp" 
+        intervals [24]:
+            xmin = 167.986125 
+            xmax = 170.596125 
+            text = "BUTTERSCOTCH FUDGE GOES WELL WITH VANILLA ICE CREAM" 
+        intervals [25]:
+            xmin = 170.596125 
+            xmax = 181.737375 
+            text = "sp" 
+        intervals [26]:
+            xmin = 181.737375 
+            xmax = 185.187375 
+            text = "RICH PURCHASED SEVERAL SIGNED LITHOGRAPHS" 
+        intervals [27]:
+            xmin = 185.187375 
+            xmax = 200.0813125 
+            text = "sp" 
+        intervals [28]:
+            xmin = 200.0813125 
+            xmax = 204.2813125 
+            text = "ANY CONTRIBUTION WILL GET GREATLY APPRECIATED" 
+        intervals [29]:
+            xmin = 204.2813125 
+            xmax = 214.5768125 
+            text = "sp" 
+        intervals [30]:
+            xmin = 214.5768125 
+            xmax = 218.0668125 
+            text = "THE CRANBERRY BOG GETS VERY PRETTY IN AUTUMN" 
+        intervals [31]:
+            xmin = 218.0668125 
+            xmax = 226.018 
+            text = "sp" 
+        intervals [32]:
+            xmin = 226.018 
+            xmax = 227.5991875 
+            text = "HOW DO OYSTERS MAKE PEARLS" 
+        intervals [33]:
+            xmin = 227.5991875 
+            xmax = 237.125 
+            text = "sp" 
+        intervals [34]:
+            xmin = 237.125 
+            xmax = 239.945 
+            text = "MAY I ORDER A PARFAIT AFTER I EAT DINNER" 
+        intervals [35]:
+            xmin = 239.945 
+            xmax = 246.6954375 
+            text = "sp" 
+        intervals [36]:
+            xmin = 246.6954375 
+            xmax = 247.801125 
+            text = "IS SHE GOING WITH YOU" 
+        intervals [37]:
+            xmin = 247.801125 
+            xmax = 257.018625 
+            text = "sp" 
+        intervals [38]:
+            xmin = 257.018625 
+            xmax = 259.588625 
+            text = "CAN THE AGENCY OVERTHROW ALIEN FORCES" 
+        intervals [39]:
+            xmin = 259.588625 
+            xmax = 276.107875 
+            text = "sp" 
+        intervals [40]:
+            xmin = 276.107875 
+            xmax = 278.017875 
+            text = "THAT PICKPOCKET WAS CAUGHT RED HANDED" 
+        intervals [41]:
+            xmin = 278.017875 
+            xmax = 286.5580625 
+            text = "sp" 
+        intervals [42]:
+            xmin = 286.5580625 
+            xmax = 289.3780625 
+            text = "MAY I ORDER A PARFAIT AFTER I EAT DINNER" 
+        intervals [43]:
+            xmin = 289.3780625 
+            xmax = 297.166125 
+            text = "sp" 
+        intervals [44]:
+            xmin = 297.166125 
+            xmax = 299.9029375 
+            text = "JOHNS BROTHER REPAINTED THE GARBAGE DOOR" 
+        intervals [45]:
+            xmin = 299.9029375 
+            xmax = 308.1845625 
+            text = "sp" 
+        intervals [46]:
+            xmin = 308.1845625 
+            xmax = 311.2345625 
+            text = "A MUSCULAR ABDOMEN IS GOOD FOR YOUR BACK" 
+        intervals [47]:
+            xmin = 311.2345625 
+            xmax = 325.9310625 
+            text = "sp" 
+        intervals [48]:
+            xmin = 325.9310625 
+            xmax = 327.51225 
+            text = "HOW DO OYSTERS MAKE PEARLS" 
+        intervals [49]:
+            xmin = 327.51225 
+            xmax = 341.064875 
+            text = "sp" 
+        intervals [50]:
+            xmin = 341.064875 
+            xmax = 344.324875 
+            text = "AMBIDEXTROUS PICKPOCKETS ACCOMPLISH MORE" 
+        intervals [51]:
+            xmin = 344.324875 
+            xmax = 352.907625 
+            text = "sp" 
+        intervals [52]:
+            xmin = 352.907625 
+            xmax = 356.027625 
+            text = "THE WATER CONTAINED TOO MUCH CHLORINE AND STUNG HIS EYES" 
+        intervals [53]:
+            xmin = 356.027625 
+            xmax = 364.208625 
+            text = "sp" 
+        intervals [54]:
+            xmin = 364.208625 
+            xmax = 366.788625 
+            text = "THEY OWN A BIG HOUSE IN THE REMOTE COUNTRYSIDE" 
+        intervals [55]:
+            xmin = 366.788625 
+            xmax = 374.5924375 
+            text = "sp" 
+        intervals [56]:
+            xmin = 374.5924375 
+            xmax = 377.1824375 
+            text = "HER WARDROBE CONSISTS OF ONLY SKIRTS AND BLOUSES" 
+        intervals [57]:
+            xmin = 377.1824375 
+            xmax = 386.112625 
+            text = "sp" 
+        intervals [58]:
+            xmin = 386.112625 
+            xmax = 388.412625 
+            text = "THE TWO ARTIST IS EXCHANGED AUTOGRAPHS" 
+        intervals [59]:
+            xmin = 388.412625 
+            xmax = 397.6128125 
+            text = "sp" 
+        intervals [60]:
+            xmin = 397.6128125 
+            xmax = 400.1828125 
+            text = "CAN THE AGENCY OVERTHROW ALIEN FORCES" 
+        intervals [61]:
+            xmin = 400.1828125 
+            xmax = 408.094625 
+            text = "sp" 
+        intervals [62]:
+            xmin = 408.094625 
+            xmax = 409.2003125 
+            text = "IS SHE GOING WITH YOU" 
+        intervals [63]:
+            xmin = 409.2003125 
+            xmax = 418.7171875 
+            text = "sp" 
+        intervals [64]:
+            xmin = 418.7171875 
+            xmax = 422.1671875 
+            text = "RICH PURCHASED SEVERAL SIGNED LITHOGRAPHS" 
+        intervals [65]:
+            xmin = 422.1671875 
+            xmax = 431.1581875 
+            text = "sp" 
+        intervals [66]:
+            xmin = 431.1581875 
+            xmax = 435.1481875 
+            text = "AN ADULT MALE BABOONS TEETH ARE NOT SUITABLE FOR EATING SHELLFISH" 
+        intervals [67]:
+            xmin = 435.1481875 
+            xmax = 444.6925625 
+            text = "sp" 
+        intervals [68]:
+            xmin = 444.6925625 
+            xmax = 446.4125625 
+            text = "THE ROSE CORSAGE SMELLED SWEET" 
+        intervals [69]:
+            xmin = 446.4125625 
+            xmax = 464.491 
+            text = "sp" 
+        intervals [70]:
+            xmin = 464.491 
+            xmax = 467.101 
+            text = "BUTTERSCOTCH FUDGE GOES WELL WITH VANILLA ICE CREAM" 
+        intervals [71]:
+            xmin = 467.101 
+            xmax = 475.375 
+            text = "sp" 
+        intervals [72]:
+            xmin = 475.375 
+            xmax = 477.225 
+            text = "CHALLENGE EACH GENERALS INTELLIGENCE" 
+        intervals [73]:
+            xmin = 477.225 
+            xmax = 485.238 
+            text = "sp" 
+        intervals [74]:
+            xmin = 485.238 
+            xmax = 488.728 
+            text = "THE CRANBERRY BOG GETS VERY PRETTY IN AUTUMN" 
+        intervals [75]:
+            xmin = 488.728 
+            xmax = 500.1155625 
+            text = "sp" 
+        intervals [76]:
+            xmin = 500.1155625 
+            xmax = 504.3155625 
+            text = "ANY CONTRIBUTION WILL GET GREATLY APPRECIATED" 
+        intervals [77]:
+            xmin = 504.3155625 
+            xmax = 511.0353125 
+            text = "sp" 

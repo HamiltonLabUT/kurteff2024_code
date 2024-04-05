@@ -1,0 +1,170 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 380.0004535147392 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "sentences" 
+        xmin = 0 
+        xmax = 380.0004535147392 
+        intervals: size = 39 
+        intervals [1]:
+            xmin = 0 
+            xmax = 38.632380952380956 
+            text = "sp" 
+        intervals [2]:
+            xmin = 38.632380952380956 
+            xmax = 41.25632653061224 
+            text = "BY EATING YOGURT YOU MAY LIVE LONGER" 
+        intervals [3]:
+            xmin = 41.25632653061224 
+            xmax = 53.83609977324263 
+            text = "sp" 
+        intervals [4]:
+            xmin = 53.83609977324263 
+            xmax = 56.47011337868481 
+            text = "THE CAUSEWAY ENDED ABRUPTLY AT THE SHORE" 
+        intervals [5]:
+            xmin = 56.47011337868481 
+            xmax = 69.48997732426304 
+            text = "sp" 
+        intervals [6]:
+            xmin = 69.48997732426304 
+            xmax = 74.80798185941043 
+            text = "WEATHERPROOF ARE VERY USEFUL IN SEATTLE" 
+        intervals [7]:
+            xmin = 74.80798185941043 
+            xmax = 91.890775423394 
+            text = "sp" 
+        intervals [8]:
+            xmin = 91.890775423394 
+            xmax = 94.02926453841177 
+            text = "THE SPEECH MIGHT BEGIN ON MONDAY" 
+        intervals [9]:
+            xmin = 94.02926453841177 
+            xmax = 105.17387755102041 
+            text = "sp" 
+        intervals [10]:
+            xmin = 105.17387755102041 
+            xmax = 108.07691609977324 
+            text = "ID RATHER NOT BUY THESE SHOES THAN BE OVERCHARGED" 
+        intervals [11]:
+            xmin = 108.07691609977324 
+            xmax = 118.57786848072563 
+            text = "sp" 
+        intervals [12]:
+            xmin = 118.57786848072563 
+            xmax = 121.50213151927437 
+            text = "BE CAREFUL TO NOT PLOW OVER THE FLOWER BEDS" 
+        intervals [13]:
+            xmin = 121.50213151927437 
+            xmax = 133.43301587301588 
+            text = "sp" 
+        intervals [14]:
+            xmin = 133.43301587301588 
+            xmax = 137.16498866213152 
+            text = "THE OVERWEIGHT CHARMER COULD SLIP POISON INTO ANYONES TEA" 
+        intervals [15]:
+            xmin = 137.16498866213152 
+            xmax = 146.59918367346938 
+            text = "sp" 
+        intervals [16]:
+            xmin = 146.59918367346938 
+            xmax = 149.06784580498865 
+            text = "THE ANGRY BOY ANSWERED BUT HE DIDNT LOOK UP" 
+        intervals [17]:
+            xmin = 149.06784580498865 
+            xmax = 163.30340136054423 
+            text = "sp" 
+        intervals [18]:
+            xmin = 163.30340136054423 
+            xmax = 168.68136054421768 
+            text = "WHICH LONG LONG ARTICLE WAS OPAQUE AND NEEDED CLARIFICATION" 
+        intervals [19]:
+            xmin = 168.68136054421768 
+            xmax = 177.99065759637188 
+            text = "sp" 
+        intervals [20]:
+            xmin = 177.99065759637188 
+            xmax = 179.67555555555555 
+            text = "HELP CELEBRATE YOUR BROTHERS SUCCESS" 
+        intervals [21]:
+            xmin = 179.67555555555555 
+            xmax = 190.89614512471655 
+            text = "sp" 
+        intervals [22]:
+            xmin = 190.89614512471655 
+            xmax = 194.37850340136055 
+            text = "WILL YOU PLEASE CONFIRM GOVERNMENT POLICIES REGARDING WASTE REMOVAL" 
+        intervals [23]:
+            xmin = 194.37850340136055 
+            xmax = 205.34013605442178 
+            text = "sp" 
+        intervals [24]:
+            xmin = 205.34013605442178 
+            xmax = 208.78213151927437 
+            text = "THEY ASSUME NO BURGLAR WILL EVEN ENTER HERE" 
+        intervals [25]:
+            xmin = 208.78213151927437 
+            xmax = 219.49532879818594 
+            text = "sp" 
+        intervals [26]:
+            xmin = 219.49532879818594 
+            xmax = 221.02231292517007 
+            text = "HE WILL ALLOW A RARE LIE" 
+        intervals [27]:
+            xmin = 221.02231292517007 
+            xmax = 234.75020408163266 
+            text = "sp" 
+        intervals [28]:
+            xmin = 234.75020408163266 
+            xmax = 238.64172335600907 
+            text = "COURTESY AND METROCITY SELDOM CO EXIST" 
+        intervals [29]:
+            xmin = 238.64172335600907 
+            xmax = 249.55591836734695 
+            text = "sp" 
+        intervals [30]:
+            xmin = 249.55591836734695 
+            xmax = 251.60090702947846 
+            text = "HIS SUDDEN DEPARTURE SHOCKED THE CAST" 
+        intervals [31]:
+            xmin = 251.60090702947846 
+            xmax = 263.9387755102041 
+            text = "sp" 
+        intervals [32]:
+            xmin = 263.9387755102041 
+            xmax = 266.89179138322 
+            text = "SHE SLIPPED AND SPRAINED HER ANKLE ON THE STEEP SLOPE" 
+        intervals [33]:
+            xmin = 266.89179138322 
+            xmax = 279.77315192743765 
+            text = "sp" 
+        intervals [34]:
+            xmin = 279.77315192743765 
+            xmax = 282.7484807256236 
+            text = "THE BIG GOAT IDLY AMBLED THROUGH THE FARM" 
+        intervals [35]:
+            xmin = 282.7484807256236 
+            xmax = 296.32045351473926 
+            text = "sp" 
+        intervals [36]:
+            xmin = 296.32045351473926 
+            xmax = 301.0187755102041 
+            text = "SHOULD GIRAFFES GIRAFFES BE KEPT IN SMALL ZOOS" 
+        intervals [37]:
+            xmin = 301.0187755102041 
+            xmax = 312.7788662131519 
+            text = "sp" 
+        intervals [38]:
+            xmin = 312.7788662131519 
+            xmax = 316.10884353741494 
+            text = "WE GOT DRENCHED FROM THE UNINTERRUPTED RAIN" 
+        intervals [39]:
+            xmin = 316.10884353741494 
+            xmax = 380.0004535147392 
+            text = "sp" 

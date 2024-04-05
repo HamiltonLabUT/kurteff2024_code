@@ -1,0 +1,322 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 466.4078125 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "sentences" 
+        xmin = 0 
+        xmax = 466.4078125 
+        intervals: size = 77 
+        intervals [1]:
+            xmin = 0 
+            xmax = 18.0821875 
+            text = "sp" 
+        intervals [2]:
+            xmin = 18.0821875 
+            xmax = 19.5646875 
+            text = "HOW MUCH ALLOWANCE DO YOU GET" 
+        intervals [3]:
+            xmin = 19.5646875 
+            xmax = 28.2031875 
+            text = "sp" 
+        intervals [4]:
+            xmin = 28.2031875 
+            xmax = 30.7245 
+            text = "CYCLICAL PROGRAMS WILL NEVER COMPILE" 
+        intervals [5]:
+            xmin = 30.7245 
+            xmax = 39.2021875 
+            text = "sp" 
+        intervals [6]:
+            xmin = 39.2021875 
+            xmax = 42.4421875 
+            text = "THE BOSTON BALLET OVERCAME THEIR FUNDING SHORTAGE" 
+        intervals [7]:
+            xmin = 42.4421875 
+            xmax = 49.7035 
+            text = "sp" 
+        intervals [8]:
+            xmin = 49.7035 
+            xmax = 51.7235 
+            text = "EVERY CAB NEEDS REPAIRING OFTEN" 
+        intervals [9]:
+            xmin = 51.7235 
+            xmax = 59.373125 
+            text = "sp" 
+        intervals [10]:
+            xmin = 59.373125 
+            xmax = 61.903125 
+            text = "HELP GREG TO PICK A PECK OF POTATOES" 
+        intervals [11]:
+            xmin = 61.903125 
+            xmax = 69.499 
+            text = "sp" 
+        intervals [12]:
+            xmin = 69.499 
+            xmax = 71.929 
+            text = "WE LIKE BLUE CHEESE BUT VICTOR LIKES BRIE" 
+        intervals [13]:
+            xmin = 71.929 
+            xmax = 87.5444375 
+            text = "sp" 
+        intervals [14]:
+            xmin = 87.5444375 
+            xmax = 90.5111875 
+            text = "COUNT THE NUMBER OF TEASPOONS OF SOYSAUCE THAT YOU ADD" 
+        intervals [15]:
+            xmin = 90.5111875 
+            xmax = 98.5801875 
+            text = "sp" 
+        intervals [16]:
+            xmin = 98.5801875 
+            xmax = 101.3601875 
+            text = "BAGPIPES AND BONGOS ARE MUSICAL INSTRUMENTS" 
+        intervals [17]:
+            xmin = 101.3601875 
+            xmax = 108.15775 
+            text = "sp" 
+        intervals [18]:
+            xmin = 108.15775 
+            xmax = 109.86775 
+            text = "HOW GOOD IS YOUR ENDURANCE" 
+        intervals [19]:
+            xmin = 109.86775 
+            xmax = 120.568375 
+            text = "sp" 
+        intervals [20]:
+            xmin = 120.568375 
+            xmax = 125.448375 
+            text = "THE ESSAY UNDENIABLY REFLECTS OUR VIEW AH OUR VIEW ABLY" 
+        intervals [21]:
+            xmin = 125.448375 
+            xmax = 134.0929375 
+            text = "sp" 
+        intervals [22]:
+            xmin = 134.0929375 
+            xmax = 136.603 
+            text = "A BORING NOVEL IS A SUPERB SLEEPING PILL" 
+        intervals [23]:
+            xmin = 136.603 
+            xmax = 144.395625 
+            text = "sp" 
+        intervals [24]:
+            xmin = 144.395625 
+            xmax = 146.805625 
+            text = "ORANGE JUICE TASTES FUNNY AFTER TOOTHPASTE" 
+        intervals [25]:
+            xmin = 146.805625 
+            xmax = 155.1123125 
+            text = "sp" 
+        intervals [26]:
+            xmin = 155.1123125 
+            xmax = 158.0823125 
+            text = "THE WILLOWY WOMAN WORE A MUSKET MUSKRAT COAT" 
+        intervals [27]:
+            xmin = 158.0823125 
+            xmax = 167.4023125 
+            text = "sp" 
+        intervals [28]:
+            xmin = 167.4023125 
+            xmax = 171.332625 
+            text = "THE MOSQUITO WAS RE RETRACTED WITH AN APOLOGY" 
+        intervals [29]:
+            xmin = 171.332625 
+            xmax = 181.4094375 
+            text = "sp" 
+        intervals [30]:
+            xmin = 181.4094375 
+            xmax = 185.2194375 
+            text = "I JUST SAW JIM NEAR THE NEW ARCHEO ARCHEOLOGICAL MUSEUM" 
+        intervals [31]:
+            xmin = 185.2194375 
+            xmax = 195.4653125 
+            text = "sp" 
+        intervals [32]:
+            xmin = 195.4653125 
+            xmax = 199.7253125 
+            text = "RIGHT NOW MAY NOT BE THE TIME BEST TIME FOR BUSINESS MERGERS" 
+        intervals [33]:
+            xmin = 199.7253125 
+            xmax = 208.11275 
+            text = "sp" 
+        intervals [34]:
+            xmin = 208.11275 
+            xmax = 210.96275 
+            text = "THE MISPRINT PROVOKED AN IMMEDIATE DISCLAIMER" 
+        intervals [35]:
+            xmin = 210.96275 
+            xmax = 219.0111875 
+            text = "sp" 
+        intervals [36]:
+            xmin = 219.0111875 
+            xmax = 221.0811875 
+            text = "THEY ALL ENJOY ICE CREAM SUNDAES" 
+        intervals [37]:
+            xmin = 221.0811875 
+            xmax = 229.7011875 
+            text = "sp" 
+        intervals [38]:
+            xmin = 229.7011875 
+            xmax = 231.9011875 
+            text = "DO ATYPICAL FARMERS GROW OATS" 
+        intervals [39]:
+            xmin = 231.9011875 
+            xmax = 245.9466875 
+            text = "sp" 
+        intervals [40]:
+            xmin = 245.9466875 
+            xmax = 248.3766875 
+            text = "WE LIKE BLUE CHEESE BUT VICTOR LIKES BRIE" 
+        intervals [41]:
+            xmin = 248.3766875 
+            xmax = 255.7333125 
+            text = "sp" 
+        intervals [42]:
+            xmin = 255.7333125 
+            xmax = 257.7533125 
+            text = "EVERY CAB NEEDS REPAIRING OFTEN" 
+        intervals [43]:
+            xmin = 257.7533125 
+            xmax = 265.4898125 
+            text = "sp" 
+        intervals [44]:
+            xmin = 265.4898125 
+            xmax = 266.9723125 
+            text = "HOW MUCH ALLOWANCE DO YOU GET" 
+        intervals [45]:
+            xmin = 266.9723125 
+            xmax = 277.38 
+            text = "sp" 
+        intervals [46]:
+            xmin = 277.38 
+            xmax = 279.8900625 
+            text = "A BORING NOVEL IS A SUPERB SLEEPING PILL" 
+        intervals [47]:
+            xmin = 279.8900625 
+            xmax = 287.6314375 
+            text = "sp" 
+        intervals [48]:
+            xmin = 287.6314375 
+            xmax = 290.8714375 
+            text = "THE BOSTON BALLET OVERCAME THEIR FUNDING SHORTAGE" 
+        intervals [49]:
+            xmin = 290.8714375 
+            xmax = 307.87625 
+            text = "sp" 
+        intervals [50]:
+            xmin = 307.87625 
+            xmax = 310.843 
+            text = "COUNT THE NUMBER OF TEASPOONS OF SOYSAUCE THAT YOU ADD" 
+        intervals [51]:
+            xmin = 310.843 
+            xmax = 319.6204375 
+            text = "sp" 
+        intervals [52]:
+            xmin = 319.6204375 
+            xmax = 323.8804375 
+            text = "RIGHT NOW MAY NOT BE THE TIME BEST TIME FOR BUSINESS MERGERS" 
+        intervals [53]:
+            xmin = 323.8804375 
+            xmax = 332.2195625 
+            text = "sp" 
+        intervals [54]:
+            xmin = 332.2195625 
+            xmax = 334.6295625 
+            text = "ORANGE JUICE TASTES FUNNY AFTER TOOTHPASTE" 
+        intervals [55]:
+            xmin = 334.6295625 
+            xmax = 342.121375 
+            text = "sp" 
+        intervals [56]:
+            xmin = 342.121375 
+            xmax = 344.191375 
+            text = "THEY ALL ENJOY ICE CREAM SUNDAES" 
+        intervals [57]:
+            xmin = 344.191375 
+            xmax = 353.74075 
+            text = "sp" 
+        intervals [58]:
+            xmin = 353.74075 
+            xmax = 358.62075 
+            text = "THE ESSAY UNDENIABLY REFLECTS OUR VIEW AH OUR VIEW ABLY" 
+        intervals [59]:
+            xmin = 358.62075 
+            xmax = 367.0451875 
+            text = "sp" 
+        intervals [60]:
+            xmin = 367.0451875 
+            xmax = 370.9755 
+            text = "THE MOSQUITO WAS RE RETRACTED WITH AN APOLOGY" 
+        intervals [61]:
+            xmin = 370.9755 
+            xmax = 379.3749375 
+            text = "sp" 
+        intervals [62]:
+            xmin = 379.3749375 
+            xmax = 381.5749375 
+            text = "DO ATYPICAL FARMERS GROW OATS" 
+        intervals [63]:
+            xmin = 381.5749375 
+            xmax = 389.504875 
+            text = "sp" 
+        intervals [64]:
+            xmin = 389.504875 
+            xmax = 392.354875 
+            text = "THE MISPRINT PROVOKED AN IMMEDIATE DISCLAIMER" 
+        intervals [65]:
+            xmin = 392.354875 
+            xmax = 400.355 
+            text = "sp" 
+        intervals [66]:
+            xmin = 400.355 
+            xmax = 402.065 
+            text = "HOW GOOD IS YOUR ENDURANCE" 
+        intervals [67]:
+            xmin = 402.065 
+            xmax = 410.630375 
+            text = "sp" 
+        intervals [68]:
+            xmin = 410.630375 
+            xmax = 413.410375 
+            text = "BAGPIPES AND BONGOS ARE MUSICAL INSTRUMENTS" 
+        intervals [69]:
+            xmin = 413.410375 
+            xmax = 422.4311875 
+            text = "sp" 
+        intervals [70]:
+            xmin = 422.4311875 
+            xmax = 424.9525 
+            text = "CYCLICAL PROGRAMS WILL NEVER COMPILE" 
+        intervals [71]:
+            xmin = 424.9525 
+            xmax = 433.86425 
+            text = "sp" 
+        intervals [72]:
+            xmin = 433.86425 
+            xmax = 436.39425 
+            text = "HELP GREG TO PICK A PECK OF POTATOES" 
+        intervals [73]:
+            xmin = 436.39425 
+            xmax = 443.5601875 
+            text = "sp" 
+        intervals [74]:
+            xmin = 443.5601875 
+            xmax = 447.3701875 
+            text = "I JUST SAW JIM NEAR THE NEW ARCHEO ARCHEOLOGICAL MUSEUM" 
+        intervals [75]:
+            xmin = 447.3701875 
+            xmax = 455.5294375 
+            text = "sp" 
+        intervals [76]:
+            xmin = 455.5294375 
+            xmax = 458.4994375 
+            text = "THE WILLOWY WOMAN WORE A MUSKET MUSKRAT COAT" 
+        intervals [77]:
+            xmin = 458.4994375 
+            xmax = 466.4078125 
+            text = "sp" 

@@ -1,0 +1,418 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 706.476 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "sentences" 
+        xmin = 0 
+        xmax = 706.476 
+        intervals: size = 101 
+        intervals [1]:
+            xmin = 0 
+            xmax = 20.865 
+            text = "sp" 
+        intervals [2]:
+            xmin = 20.865 
+            xmax = 24.885 
+            text = "THE CATS MEOW ALWAYS HURTS MY EARS" 
+        intervals [3]:
+            xmin = 24.885 
+            xmax = 34.437202688670126 
+            text = "sp" 
+        intervals [4]:
+            xmin = 34.437202688670126 
+            xmax = 37.257 
+            text = "HOW DO YOU KNOW MY NAME" 
+        intervals [5]:
+            xmin = 37.257 
+            xmax = 53.321 
+            text = "sp" 
+        intervals [6]:
+            xmin = 53.321 
+            xmax = 55.905 
+            text = "ADD THE NUMBERS TOGETHER ONE BY ONE" 
+        intervals [7]:
+            xmin = 55.905 
+            xmax = 64.336 
+            text = "sp" 
+        intervals [8]:
+            xmin = 64.336 
+            xmax = 67.76296279941283 
+            text = "HE WILL ALLOW A RARE LIE" 
+        intervals [9]:
+            xmin = 67.76296279941283 
+            xmax = 77.207 
+            text = "sp" 
+        intervals [10]:
+            xmin = 77.207 
+            xmax = 81.457 
+            text = "JOHNS BROTHER REPAINTED THE GARAGE DOOR" 
+        intervals [11]:
+            xmin = 81.457 
+            xmax = 92.163 
+            text = "sp" 
+        intervals [12]:
+            xmin = 92.163 
+            xmax = 95.01581771003119 
+            text = "HE ATE FOUR EXTRA EGGS FOR BREAKFAST" 
+        intervals [13]:
+            xmin = 95.01581771003119 
+            xmax = 103.776 
+            text = "sp" 
+        intervals [14]:
+            xmin = 103.776 
+            xmax = 107.91557800948628 
+            text = "JANE HELPED H HER SISTER WITH HOMEWORK" 
+        intervals [15]:
+            xmin = 107.91557800948628 
+            xmax = 117.655 
+            text = "sp" 
+        intervals [16]:
+            xmin = 117.655 
+            xmax = 119.999 
+            text = "DID YOU EAT LUNCH YESTERDAY" 
+        intervals [17]:
+            xmin = 119.999 
+            xmax = 128.021 
+            text = "sp" 
+        intervals [18]:
+            xmin = 128.021 
+            xmax = 130.755 
+            text = "DO ALL FARMERS GROW POTATOES" 
+        intervals [19]:
+            xmin = 130.755 
+            xmax = 139.635 
+            text = "sp" 
+        intervals [20]:
+            xmin = 139.635 
+            xmax = 142.219 
+            text = "MY FAVORITE ICE CREAM FLAVOR IS VANILLA" 
+        intervals [21]:
+            xmin = 142.219 
+            xmax = 150.949 
+            text = "sp" 
+        intervals [22]:
+            xmin = 150.949 
+            xmax = 153.0845455737446 
+            text = "PICK A PRIZE FROM THE BAG" 
+        intervals [23]:
+            xmin = 153.0845455737446 
+            xmax = 160.697 
+            text = "sp" 
+        intervals [24]:
+            xmin = 160.697 
+            xmax = 165.017 
+            text = "THEY ALL LIKE LONG HOT SHOWERS" 
+        intervals [25]:
+            xmin = 165.017 
+            xmax = 174.745 
+            text = "sp" 
+        intervals [26]:
+            xmin = 174.745 
+            xmax = 178.616 
+            text = "WE ARE OPEN EVERY MONDAY EVENING" 
+        intervals [27]:
+            xmin = 178.616 
+            xmax = 188.563 
+            text = "sp" 
+        intervals [28]:
+            xmin = 188.563 
+            xmax = 191.786 
+            text = "WE WELCOME MANY NEW STUDENTS EACH YEAR" 
+        intervals [29]:
+            xmin = 191.786 
+            xmax = 200.836 
+            text = "sp" 
+        intervals [30]:
+            xmin = 200.836 
+            xmax = 203.011 
+            text = "SHE SLIPPED ON THE STAIRS" 
+        intervals [31]:
+            xmin = 203.011 
+            xmax = 210.803 
+            text = "sp" 
+        intervals [32]:
+            xmin = 210.803 
+            xmax = 213.587 
+            text = "HOW MUCH ALLOWANCE DO YOU GET" 
+        intervals [33]:
+            xmin = 213.587 
+            xmax = 225.38 
+            text = "sp" 
+        intervals [34]:
+            xmin = 225.38 
+            xmax = 230.748 
+            text = "LIE LIVES IN A VERY SMALL HOUSE" 
+        intervals [35]:
+            xmin = 230.748 
+            xmax = 246.31104099431283 
+            text = "sp" 
+        intervals [36]:
+            xmin = 246.31104099431283 
+            xmax = 250.004 
+            text = "HOW DO OYSTERS MAKE PEARLS" 
+        intervals [37]:
+            xmin = 250.004 
+            xmax = 259.103 
+            text = "sp" 
+        intervals [38]:
+            xmin = 259.103 
+            xmax = 263.463 
+            text = "MICHELLE COLORED THE BEDROOM WALL WITH CRAYONS" 
+        intervals [39]:
+            xmin = 263.463 
+            xmax = 273.49 
+            text = "sp" 
+        intervals [40]:
+            xmin = 273.49 
+            xmax = 275.675 
+            text = "SHE IS TALLER THAN I AM" 
+        intervals [41]:
+            xmin = 275.675 
+            xmax = 283.68042635853965 
+            text = "sp" 
+        intervals [42]:
+            xmin = 283.68042635853965 
+            xmax = 286.99867599804776 
+            text = "THE ROSES SMELLED VERY SWEET" 
+        intervals [43]:
+            xmin = 286.99867599804776 
+            xmax = 296.259 
+            text = "sp" 
+        intervals [44]:
+            xmin = 296.259 
+            xmax = 301.08160698527087 
+            text = "STEVEN WROTE A BRIGHT RED SWAR" 
+        intervals [45]:
+            xmin = 301.08160698527087 
+            xmax = 319.4649067436065 
+            text = "sp" 
+        intervals [46]:
+            xmin = 319.4649067436065 
+            xmax = 324.973 
+            text = "THE TOOTH FAIRY FORGOT TO COME WHEN ROGERS TOOTH FELL OUT" 
+        intervals [47]:
+            xmin = 324.973 
+            xmax = 336.717 
+            text = "sp" 
+        intervals [48]:
+            xmin = 336.717 
+            xmax = 340.368 
+            text = "BIRTHDAY PARTIES HAVE CUPCAKES AND ICE CREAM" 
+        intervals [49]:
+            xmin = 340.368 
+            xmax = 349.837 
+            text = "sp" 
+        intervals [50]:
+            xmin = 349.837 
+            xmax = 354.287 
+            text = "BOB LOOKED FOR SHELLS BY THE OCEAN" 
+        intervals [51]:
+            xmin = 354.287 
+            xmax = 377.734 
+            text = "sp" 
+        intervals [52]:
+            xmin = 377.734 
+            xmax = 384.50763509700005 
+            text = "THE CATS MEOW ALWAYS HURTS MY EARS" 
+        intervals [53]:
+            xmin = 384.50763509700005 
+            xmax = 393.574391754907 
+            text = "sp" 
+        intervals [54]:
+            xmin = 393.574391754907 
+            xmax = 395.094 
+            text = "HOW DO YOU KNOW MY NAME" 
+        intervals [55]:
+            xmin = 395.094 
+            xmax = 404.034 
+            text = "sp" 
+        intervals [56]:
+            xmin = 404.034 
+            xmax = 406.279 
+            text = "ADD THE NUMBERS TOGETHER ONE BY ONE" 
+        intervals [57]:
+            xmin = 406.279 
+            xmax = 414.59 
+            text = "sp" 
+        intervals [58]:
+            xmin = 414.59 
+            xmax = 416.904 
+            text = "HE WILL ALLOW A RARE LIE" 
+        intervals [59]:
+            xmin = 416.904 
+            xmax = 427.441 
+            text = "sp" 
+        intervals [60]:
+            xmin = 427.441 
+            xmax = 430.893 
+            text = "JOHNS BROTHER REPAINTED THE GARAGE DOOR" 
+        intervals [61]:
+            xmin = 430.893 
+            xmax = 440.002 
+            text = "sp" 
+        intervals [62]:
+            xmin = 440.002 
+            xmax = 443.634 
+            text = "HE ATE FOUR EXTRA EGGS FOR BREAKFAST" 
+        intervals [63]:
+            xmin = 443.634 
+            xmax = 453.362 
+            text = "sp" 
+        intervals [64]:
+            xmin = 453.362 
+            xmax = 456.4197962417805 
+            text = "JANE HELPED HER SISTER WITH HOMEWORK" 
+        intervals [65]:
+            xmin = 456.4197962417805 
+            xmax = 464.017 
+            text = "sp" 
+        intervals [66]:
+            xmin = 464.017 
+            xmax = 465.7582324275407 
+            text = "DID YOU EAT LUNCH YESTERDAY" 
+        intervals [67]:
+            xmin = 465.7582324275407 
+            xmax = 474.673 
+            text = "sp" 
+        intervals [68]:
+            xmin = 474.673 
+            xmax = 477.217 
+            text = "DO ALL FARMERS GROW POTATOES" 
+        intervals [69]:
+            xmin = 477.217 
+            xmax = 491.43143878323684 
+            text = "sp" 
+        intervals [70]:
+            xmin = 491.43143878323684 
+            xmax = 493.79620936915313 
+            text = "MY FAVORITE ICE CREAM FLAVOR IS VANILLA" 
+        intervals [71]:
+            xmin = 493.79620936915313 
+            xmax = 502.68 
+            text = "sp" 
+        intervals [72]:
+            xmin = 502.68 
+            xmax = 504.48356747029715 
+            text = "PICK A PRIZE FROM THE BAG" 
+        intervals [73]:
+            xmin = 504.48356747029715 
+            xmax = 516.059 
+            text = "sp" 
+        intervals [74]:
+            xmin = 516.059 
+            xmax = 519.372 
+            text = "THEY ALL LIKE LONG HOT SHOWERS" 
+        intervals [75]:
+            xmin = 519.372 
+            xmax = 527.872 
+            text = "sp" 
+        intervals [76]:
+            xmin = 527.872 
+            xmax = 531.424 
+            text = "WE ARE OPEN EVERY MONDAY EVENING" 
+        intervals [77]:
+            xmin = 531.424 
+            xmax = 540.853 
+            text = "sp" 
+        intervals [78]:
+            xmin = 540.853 
+            xmax = 543.547 
+            text = "WE WELCOME MANY NEW STUDENTS EACH YEAR" 
+        intervals [79]:
+            xmin = 543.547 
+            xmax = 549.892 
+            text = "sp" 
+        intervals [80]:
+            xmin = 549.892 
+            xmax = 551.668 
+            text = "SHE SLIPPED ON THE STAIRS" 
+        intervals [81]:
+            xmin = 551.668 
+            xmax = 561.177 
+            text = "sp" 
+        intervals [82]:
+            xmin = 561.177 
+            xmax = 563.86 
+            text = "HOW MUCH ALLOWANCE DO YOU GET" 
+        intervals [83]:
+            xmin = 563.86 
+            xmax = 572.601 
+            text = "sp" 
+        intervals [84]:
+            xmin = 572.601 
+            xmax = 575.6922724655758 
+            text = "CARL LIVES IN A VERY SMALL HOUSE" 
+        intervals [85]:
+            xmin = 575.6922724655758 
+            xmax = 586.11 
+            text = "sp" 
+        intervals [86]:
+            xmin = 586.11 
+            xmax = 589.432 
+            text = "HOW DO OYSTERS MAKE PEARLS" 
+        intervals [87]:
+            xmin = 589.432 
+            xmax = 597.4734896961521 
+            text = "sp" 
+        intervals [88]:
+            xmin = 597.4734896961521 
+            xmax = 604.019 
+            text = "MICHELLE COLORED WITH COLORED THE BEDROOM WALL WITH CRAYONS" 
+        intervals [89]:
+            xmin = 604.019 
+            xmax = 613.6835880745065 
+            text = "sp" 
+        intervals [90]:
+            xmin = 613.6835880745065 
+            xmax = 615.413 
+            text = "SHE IS TALLER THAN I AM" 
+        intervals [91]:
+            xmin = 615.413 
+            xmax = 625.88 
+            text = "sp" 
+        intervals [92]:
+            xmin = 625.88 
+            xmax = 628.593 
+            text = "THE ROSES SMELLED VERY SWEET" 
+        intervals [93]:
+            xmin = 628.593 
+            xmax = 636.555 
+            text = "sp" 
+        intervals [94]:
+            xmin = 636.555 
+            xmax = 640.307 
+            text = "STEVEN WORE A BRIGHT RED SWEATER" 
+        intervals [95]:
+            xmin = 640.307 
+            xmax = 648.4310969752505 
+            text = "sp" 
+        intervals [96]:
+            xmin = 648.4310969752505 
+            xmax = 652.9716072984362 
+            text = "THE TOOTH FAIRY FORGOT TO COME WHEN ROGERS TOOTH FELL OUT" 
+        intervals [97]:
+            xmin = 652.9716072984362 
+            xmax = 663.055 
+            text = "sp" 
+        intervals [98]:
+            xmin = 663.055 
+            xmax = 667.695 
+            text = "BIRTHDAY PARTIES HAVE CUPCAKE AND ICE CREAM" 
+        intervals [99]:
+            xmin = 667.695 
+            xmax = 681.363 
+            text = "sp" 
+        intervals [100]:
+            xmin = 681.363 
+            xmax = 684.8706532584462 
+            text = "BOB LOOKED FOR SHELLS BY THE BEACH THE OCEAN" 
+        intervals [101]:
+            xmin = 684.8706532584462 
+            xmax = 706.476 
+            text = "sp" 

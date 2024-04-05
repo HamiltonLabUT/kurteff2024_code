@@ -1,0 +1,114 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 290.4143524207422 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "event" 
+        xmin = 0 
+        xmax = 290.4143524207422 
+        intervals: size = 25 
+        intervals [1]:
+            xmin = 0 
+            xmax = 168.35981252463537 
+            text = "sp" 
+        intervals [2]:
+            xmin = 168.35981252463537 
+            xmax = 171.81991447781627 
+            text = "aaaa" 
+        intervals [3]:
+            xmin = 171.81991447781627 
+            xmax = 177.72428259954154 
+            text = "sp" 
+        intervals [4]:
+            xmin = 177.72428259954154 
+            xmax = 181.50316553881206 
+            text = "aaaa" 
+        intervals [5]:
+            xmin = 181.50316553881206 
+            xmax = 185.0852819725896 
+            text = "sp" 
+        intervals [6]:
+            xmin = 185.0852819725896 
+            xmax = 188.4656886792481 
+            text = "aaaa" 
+        intervals [7]:
+            xmin = 188.4656886792481 
+            xmax = 191.53963974402166 
+            text = "sp" 
+        intervals [8]:
+            xmin = 191.53963974402166 
+            xmax = 195.02630677937668 
+            text = "aaaa" 
+        intervals [9]:
+            xmin = 195.02630677937668 
+            xmax = 197.65770206486974 
+            text = "sp" 
+        intervals [10]:
+            xmin = 197.65770206486974 
+            xmax = 201.1331254802563 
+            text = "aaaa" 
+        intervals [11]:
+            xmin = 201.1331254802563 
+            xmax = 209.65276430955703 
+            text = "sp" 
+        intervals [12]:
+            xmin = 209.65276430955703 
+            xmax = 213.52462503643702 
+            text = "ooee" 
+        intervals [13]:
+            xmin = 213.52462503643702 
+            xmax = 214.33668261901948 
+            text = "sp" 
+        intervals [14]:
+            xmin = 214.33668261901948 
+            xmax = 215.14027635478703 
+            text = "ooee" 
+        intervals [15]:
+            xmin = 215.14027635478703 
+            xmax = 218.79143118598316 
+            text = "sp" 
+        intervals [16]:
+            xmin = 218.79143118598316 
+            xmax = 224.28960008031675 
+            text = "ooee" 
+        intervals [17]:
+            xmin = 224.28960008031675 
+            xmax = 226.10754789665035 
+            text = "sp" 
+        intervals [18]:
+            xmin = 226.10754789665035 
+            xmax = 230.23841817472814 
+            text = "ooee" 
+        intervals [19]:
+            xmin = 230.23841817472814 
+            xmax = 232.95012660944676 
+            text = "sp" 
+        intervals [20]:
+            xmin = 232.95012660944676 
+            xmax = 237.0345079937198 
+            text = "ooee" 
+        intervals [21]:
+            xmin = 237.0345079937198 
+            xmax = 239.84039888961593 
+            text = "sp" 
+        intervals [22]:
+            xmin = 239.84039888961593 
+            xmax = 244.8310203176489 
+            text = "ooee" 
+        intervals [23]:
+            xmin = 244.8310203176489 
+            xmax = 254.4446773421996 
+            text = "sp" 
+        intervals [24]:
+            xmin = 254.4446773421996 
+            xmax = 260.13726565856706 
+            text = "ooee" 
+        intervals [25]:
+            xmin = 260.13726565856706 
+            xmax = 290.4143524207422 
+            text = "sp" 

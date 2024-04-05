@@ -1,0 +1,322 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 481.1718125 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "sentences" 
+        xmin = 0 
+        xmax = 481.1718125 
+        intervals: size = 77 
+        intervals [1]:
+            xmin = 0 
+            xmax = 25.281375 
+            text = "sp" 
+        intervals [2]:
+            xmin = 25.281375 
+            xmax = 28.412375 
+            text = "GRANDMOTHER OUTGREW HER UPBRINGING IN PETTICOATS" 
+        intervals [3]:
+            xmin = 28.412375 
+            xmax = 39.16375 
+            text = "sp" 
+        intervals [4]:
+            xmin = 39.16375 
+            xmax = 41.22375 
+            text = "OBJECTS MADE OF PERCHER ARE BEAUTIFUL" 
+        intervals [5]:
+            xmin = 41.22375 
+            xmax = 50.008875 
+            text = "sp" 
+        intervals [6]:
+            xmin = 50.008875 
+            xmax = 51.9714375 
+            text = "ARTIFICIAL INTELLIGENCE IS FOR REAL" 
+        intervals [7]:
+            xmin = 51.9714375 
+            xmax = 61.4644375 
+            text = "sp" 
+        intervals [8]:
+            xmin = 61.4644375 
+            xmax = 64.4844375 
+            text = "TODD PLACED TOP PRIORITY ON GETTING HIS BIKE FIXED" 
+        intervals [9]:
+            xmin = 64.4844375 
+            xmax = 73.7225625 
+            text = "sp" 
+        intervals [10]:
+            xmin = 73.7225625 
+            xmax = 76.7379375 
+            text = "WHEN PEELING AN ORANGE IT IS HARD NOT TO SPRAY JUICE" 
+        intervals [11]:
+            xmin = 76.7379375 
+            xmax = 85.460125 
+            text = "sp" 
+        intervals [12]:
+            xmin = 85.460125 
+            xmax = 88.6199375 
+            text = "THE MORNING DEW ON THE SPIDER WEB GLISTENED IN THE SUN" 
+        intervals [13]:
+            xmin = 88.6199375 
+            xmax = 96.31375 
+            text = "sp" 
+        intervals [14]:
+            xmin = 96.31375 
+            xmax = 98.14375 
+            text = "TORNADOS OFTEN DESTROY AREAS" 
+        intervals [15]:
+            xmin = 98.14375 
+            xmax = 110.7156875 
+            text = "sp" 
+        intervals [16]:
+            xmin = 110.7156875 
+            xmax = 117.51833001797254 
+            text = "THEY REMAINED L LIFELONG FRIENDS AND COMPANIONS" 
+        intervals [17]:
+            xmin = 117.51833001797254 
+            xmax = 126.789875 
+            text = "sp" 
+        intervals [18]:
+            xmin = 126.789875 
+            xmax = 129.7075 
+            text = "THE FOOTBALL TEAM COACH HAS A WATCH AS THIN AS A DIME" 
+        intervals [19]:
+            xmin = 129.7075 
+            xmax = 136.69425 
+            text = "sp" 
+        intervals [20]:
+            xmin = 136.69425 
+            xmax = 138.24425 
+            text = "THEY OFTEN GO OUT IN THE EVENING" 
+        intervals [21]:
+            xmin = 138.24425 
+            xmax = 146.771125 
+            text = "sp" 
+        intervals [22]:
+            xmin = 146.771125 
+            xmax = 149.6270625 
+            text = "OUR EXPERIMENTS POSITIVE OUTCOME WAS UNEXPECTED" 
+        intervals [23]:
+            xmin = 149.6270625 
+            xmax = 159.4979375 
+            text = "sp" 
+        intervals [24]:
+            xmin = 159.4979375 
+            xmax = 162.2679375 
+            text = "EACH SAY SURELY FINDS A BIG FAWN" 
+        intervals [25]:
+            xmin = 162.2679375 
+            xmax = 172.193875 
+            text = "sp" 
+        intervals [26]:
+            xmin = 172.193875 
+            xmax = 176.1396875 
+            text = "THE CIGARETTES IN THE CLAY ASHTRAY OVERFLOW ONTO THE OAK TABLE" 
+        intervals [27]:
+            xmin = 176.1396875 
+            xmax = 185.5785625 
+            text = "sp" 
+        intervals [28]:
+            xmin = 185.5785625 
+            xmax = 188.047625 
+            text = "PROJECT DEVELOPMENT WAS PROCEEDING TOO SLOWLY" 
+        intervals [29]:
+            xmin = 188.047625 
+            xmax = 196.7415625 
+            text = "sp" 
+        intervals [30]:
+            xmin = 196.7415625 
+            xmax = 198.4079375 
+            text = "WILL ROBIN WEAR A YELLOW LILY" 
+        intervals [31]:
+            xmin = 198.4079375 
+            xmax = 206.823625 
+            text = "sp" 
+        intervals [32]:
+            xmin = 206.823625 
+            xmax = 209.3846875 
+            text = "THOMAS THINKS A LARGER CLAMP SOLVES THE PROBLEM" 
+        intervals [33]:
+            xmin = 209.3846875 
+            xmax = 216.349 
+            text = "sp" 
+        intervals [34]:
+            xmin = 216.349 
+            xmax = 217.4255 
+            text = "THAT WAS EASY FOR US" 
+        intervals [35]:
+            xmin = 217.4255 
+            xmax = 226.6029375 
+            text = "sp" 
+        intervals [36]:
+            xmin = 226.6029375 
+            xmax = 230.116 
+            text = "DECEMBER AND JANUARY ARE NICE MONTHS TO SPEND TIME IN MIAMI" 
+        intervals [37]:
+            xmin = 230.116 
+            xmax = 238.9023125 
+            text = "sp" 
+        intervals [38]:
+            xmin = 238.9023125 
+            xmax = 242.3923125 
+            text = "LAST YEARS GAS SHORTAGE CAUSED STEEP PRICE INCREASES" 
+        intervals [39]:
+            xmin = 242.3923125 
+            xmax = 257.83475 
+            text = "sp" 
+        intervals [40]:
+            xmin = 257.83475 
+            xmax = 259.501125 
+            text = "WILL ROBIN WEAR A YELLOW LILY" 
+        intervals [41]:
+            xmin = 259.501125 
+            xmax = 267.353 
+            text = "sp" 
+        intervals [42]:
+            xmin = 267.353 
+            xmax = 269.183 
+            text = "TORNADOS OFTEN DESTROY AREAS" 
+        intervals [43]:
+            xmin = 269.183 
+            xmax = 277.1291875 
+            text = "sp" 
+        intervals [44]:
+            xmin = 277.1291875 
+            xmax = 279.985125 
+            text = "OUR EXPERIMENTS POSITIVE OUTCOME WAS UNEXPECTED" 
+        intervals [45]:
+            xmin = 279.985125 
+            xmax = 287.5195 
+            text = "sp" 
+        intervals [46]:
+            xmin = 287.5195 
+            xmax = 290.437125 
+            text = "THE FOOTBALL TEAM COACH HAS A WATCH AS THIN AS A DIME" 
+        intervals [47]:
+            xmin = 290.437125 
+            xmax = 299.516375 
+            text = "sp" 
+        intervals [48]:
+            xmin = 299.516375 
+            xmax = 302.647375 
+            text = "GRANDMOTHER OUTGREW HER UPBRINGING IN PETTICOATS" 
+        intervals [49]:
+            xmin = 302.647375 
+            xmax = 311.495125 
+            text = "sp" 
+        intervals [50]:
+            xmin = 311.495125 
+            xmax = 313.045125 
+            text = "THEY OFTEN GO OUT IN THE EVENING" 
+        intervals [51]:
+            xmin = 313.045125 
+            xmax = 322.3563125 
+            text = "sp" 
+        intervals [52]:
+            xmin = 322.3563125 
+            xmax = 324.318875 
+            text = "ARTIFICIAL INTELLIGENCE IS FOR REAL" 
+        intervals [53]:
+            xmin = 324.318875 
+            xmax = 333.2306875 
+            text = "sp" 
+        intervals [54]:
+            xmin = 333.2306875 
+            xmax = 336.0006875 
+            text = "EACH SAY SURELY FINDS A BIG FAWN" 
+        intervals [55]:
+            xmin = 336.0006875 
+            xmax = 345.658 
+            text = "sp" 
+        intervals [56]:
+            xmin = 345.658 
+            xmax = 348.1270625 
+            text = "PROJECT DEVELOPMENT WAS PROCEEDING TOO SLOWLY" 
+        intervals [57]:
+            xmin = 348.1270625 
+            xmax = 357.2556875 
+            text = "sp" 
+        intervals [58]:
+            xmin = 357.2556875 
+            xmax = 360.7456875 
+            text = "LAST YEARS GAS SHORTAGE CAUSED STEEP PRICE INCREASES" 
+        intervals [59]:
+            xmin = 360.7456875 
+            xmax = 368.255125 
+            text = "sp" 
+        intervals [60]:
+            xmin = 368.255125 
+            xmax = 369.331625 
+            text = "THAT WAS EASY FOR US" 
+        intervals [61]:
+            xmin = 369.331625 
+            xmax = 377.4748125 
+            text = "sp" 
+        intervals [62]:
+            xmin = 377.4748125 
+            xmax = 380.634625 
+            text = "THE MORNING DEW ON THE SPIDER WEB GLISTENED IN THE SUN" 
+        intervals [63]:
+            xmin = 380.634625 
+            xmax = 399.60775 
+            text = "sp" 
+        intervals [64]:
+            xmin = 399.60775 
+            xmax = 401.66775 
+            text = "OBJECTS MADE OF PERCHER ARE BEAUTIFUL" 
+        intervals [65]:
+            xmin = 401.66775 
+            xmax = 410.510375 
+            text = "sp" 
+        intervals [66]:
+            xmin = 410.510375 
+            xmax = 413.0714375 
+            text = "THOMAS THINKS A LARGER CLAMP SOLVES THE PROBLEM" 
+        intervals [67]:
+            xmin = 413.0714375 
+            xmax = 421.2521875 
+            text = "sp" 
+        intervals [68]:
+            xmin = 421.2521875 
+            xmax = 425.198 
+            text = "THE CIGARETTES IN THE CLAY ASHTRAY OVERFLOW ONTO THE OAK TABLE" 
+        intervals [69]:
+            xmin = 425.198 
+            xmax = 433.4475625 
+            text = "sp" 
+        intervals [70]:
+            xmin = 433.4475625 
+            xmax = 436.960625 
+            text = "DECEMBER AND JANUARY ARE NICE MONTHS TO SPEND TIME IN MIAMI" 
+        intervals [71]:
+            xmin = 436.960625 
+            xmax = 443.8259375 
+            text = "sp" 
+        intervals [72]:
+            xmin = 443.8259375 
+            xmax = 446.8413125 
+            text = "WHEN PEELING AN ORANGE IT IS HARD NOT TO SPRAY JUICE" 
+        intervals [73]:
+            xmin = 446.8413125 
+            xmax = 454.72 
+            text = "sp" 
+        intervals [74]:
+            xmin = 454.72 
+            xmax = 461.5015897461491 
+            text = "THEY REMAINED L LIFELONG FRIENDS AND COMPANIONS" 
+        intervals [75]:
+            xmin = 461.5015897461491 
+            xmax = 471.0184375 
+            text = "sp" 
+        intervals [76]:
+            xmin = 471.0184375 
+            xmax = 474.0384375 
+            text = "TODD PLACED TOP PRIORITY ON GETTING HIS BIKE FIXED" 
+        intervals [77]:
+            xmin = 474.0384375 
+            xmax = 481.1718125 
+            text = "sp" 

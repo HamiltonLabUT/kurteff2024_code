@@ -1,0 +1,322 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 737.1927437641723 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "sentences" 
+        xmin = 0 
+        xmax = 737.1927437641723 
+        intervals: size = 77 
+        intervals [1]:
+            xmin = 0 
+            xmax = 70.4885260770975 
+            text = "sp" 
+        intervals [2]:
+            xmin = 70.4885260770975 
+            xmax = 72.99981859410431 
+            text = "BY EATING YOGURT YOU MAY LIVE LONGER" 
+        intervals [3]:
+            xmin = 72.99981859410431 
+            xmax = 89.14113378684807 
+            text = "sp" 
+        intervals [4]:
+            xmin = 89.14113378684807 
+            xmax = 93.25115646258503 
+            text = "THE CAUSEWAY ENDED ABRUPTLY AT THE STORE" 
+        intervals [5]:
+            xmin = 93.25115646258503 
+            xmax = 106.37233560090704 
+            text = "sp" 
+        intervals [6]:
+            xmin = 106.37233560090704 
+            xmax = 111.10131519274377 
+            text = "WEATHERPROOF GALOSHES ARE VERY USEFUL IN SEATTLE" 
+        intervals [7]:
+            xmin = 111.10131519274377 
+            xmax = 126.1243537414966 
+            text = "sp" 
+        intervals [8]:
+            xmin = 126.1243537414966 
+            xmax = 132.2702947845805 
+            text = "THE SPEECH SIM SYMPOSIUM MIGHT BEGIN ON MONDAY" 
+        intervals [9]:
+            xmin = 132.2702947845805 
+            xmax = 142.82630385487528 
+            text = "sp" 
+        intervals [10]:
+            xmin = 142.82630385487528 
+            xmax = 146.11827664399092 
+            text = "ID RATHER NOT BUY THESE SHOES THAN BE OVERCHARGED" 
+        intervals [11]:
+            xmin = 146.11827664399092 
+            xmax = 155.25786848072562 
+            text = "sp" 
+        intervals [12]:
+            xmin = 155.25786848072562 
+            xmax = 158.4149919960398 
+            text = "BE CAREFUL NOT TO PLOW OVER THE FOW FLOWER BEDS" 
+        intervals [13]:
+            xmin = 158.4149919960398 
+            xmax = 170.77877551020407 
+            text = "sp" 
+        intervals [14]:
+            xmin = 170.77877551020407 
+            xmax = 175.22875283446712 
+            text = "THE OVERWEIGHT CHARMER COULD SLIP POISON INTO ANYONES TEA" 
+        intervals [15]:
+            xmin = 175.22875283446712 
+            xmax = 184.88480725623583 
+            text = "sp" 
+        intervals [16]:
+            xmin = 184.88480725623583 
+            xmax = 188.10784580498867 
+            text = "THE ANGRY BOY ANSWERED BUT DIDNT LOOK UP" 
+        intervals [17]:
+            xmin = 188.10784580498867 
+            xmax = 202.10639455782314 
+            text = "sp" 
+        intervals [18]:
+            xmin = 202.10639455782314 
+            xmax = 209.30938775510205 
+            text = "WHICH LONG ARTICLE WAS OH OPAQUE AND NEEDED CLARIFICATION" 
+        intervals [19]:
+            xmin = 209.30938775510205 
+            xmax = 220.7180045351474 
+            text = "sp" 
+        intervals [20]:
+            xmin = 220.7180045351474 
+            xmax = 224.74902494331064 
+            text = "HELP CELEBRATE YOUR BROTHERS SUCCESS" 
+        intervals [21]:
+            xmin = 224.74902494331064 
+            xmax = 235.63945578231292 
+            text = "sp" 
+        intervals [22]:
+            xmin = 235.63945578231292 
+            xmax = 239.61523809523808 
+            text = "WILL YOU PLEASE CONFIRM GOVERNMENT POLICY REGARDING WASTE REMOVAL" 
+        intervals [23]:
+            xmin = 239.61523809523808 
+            xmax = 250.92662131519273 
+            text = "sp" 
+        intervals [24]:
+            xmin = 250.92662131519273 
+            xmax = 254.93269841269841 
+            text = "THEY ASSUME NO BURGLAR WILL EVER ENTER HERE" 
+        intervals [25]:
+            xmin = 254.93269841269841 
+            xmax = 269.1491156462585 
+            text = "sp" 
+        intervals [26]:
+            xmin = 269.1491156462585 
+            xmax = 271.1951020408163 
+            text = "HE WILL ALLOW A RARE LIE" 
+        intervals [27]:
+            xmin = 271.1951020408163 
+            xmax = 284.2946031746032 
+            text = "sp" 
+        intervals [28]:
+            xmin = 284.2946031746032 
+            xmax = 290.0816326530612 
+            text = "CURIOSITY AND MEDIOCRITY SELDOM CO EXIST" 
+        intervals [29]:
+            xmin = 290.0816326530612 
+            xmax = 298.6784580498866 
+            text = "sp" 
+        intervals [30]:
+            xmin = 298.6784580498866 
+            xmax = 301.32244897959185 
+            text = "HIS SUDDEN DEPARTURE SHOCKED THE CAST" 
+        intervals [31]:
+            xmin = 301.32244897959185 
+            xmax = 312.0728344671202 
+            text = "sp" 
+        intervals [32]:
+            xmin = 312.0728344671202 
+            xmax = 316.4227664399093 
+            text = "SHE SLIPPED AND SPRAINED HER ANKLE ON THE STEEP SLOPE" 
+        intervals [33]:
+            xmin = 316.4227664399093 
+            xmax = 326.7971882086168 
+            text = "sp" 
+        intervals [34]:
+            xmin = 326.7971882086168 
+            xmax = 330.9371428571429 
+            text = "A BIG GOAT IDLY AMBLED THROUGH THE FARMYARD" 
+        intervals [35]:
+            xmin = 330.9371428571429 
+            xmax = 339.6428117913832 
+            text = "sp" 
+        intervals [36]:
+            xmin = 339.6428117913832 
+            xmax = 342.24680272108844 
+            text = "SHOULD GIRAFFES BE KEPT IN SMALL ZOOS" 
+        intervals [37]:
+            xmin = 342.24680272108844 
+            xmax = 352.39392290249435 
+            text = "sp" 
+        intervals [38]:
+            xmin = 352.39392290249435 
+            xmax = 355.77175064513654 
+            text = "WE GOT DRENCHED FROM THE UNINTERRUPTED RAIN" 
+        intervals [39]:
+            xmin = 355.77175064513654 
+            xmax = 379.4089795918367 
+            text = "sp" 
+        intervals [40]:
+            xmin = 379.4089795918367 
+            xmax = 382.7458800508066 
+            text = "THE ANGRY BOY ANSWERED BUT DIDNT LOOK UP" 
+        intervals [41]:
+            xmin = 382.7458800508066 
+            xmax = 392.32090702947846 
+            text = "sp" 
+        intervals [42]:
+            xmin = 392.32090702947846 
+            xmax = 395.46913547251444 
+            text = "BE CAREFUL NOT TO PLOW OVER THE FOW FLOWER BEDS" 
+        intervals [43]:
+            xmin = 395.46913547251444 
+            xmax = 426.3149206349206 
+            text = "sp" 
+        intervals [44]:
+            xmin = 426.3149206349206 
+            xmax = 428.82621315192745 
+            text = "BY EATING YOGURT YOU MAY LIVE LONGER" 
+        intervals [45]:
+            xmin = 428.82621315192745 
+            xmax = 487.54349206349207 
+            text = "sp" 
+        intervals [46]:
+            xmin = 487.54349206349207 
+            xmax = 490.96102052339364 
+            text = "WE GOT DRENCHED FROM THE UNINTERRUPTED RAIN" 
+        intervals [47]:
+            xmin = 490.96102052339364 
+            xmax = 501.0434467120181 
+            text = "sp" 
+        intervals [48]:
+            xmin = 501.0434467120181 
+            xmax = 505.1534693877551 
+            text = "THE CAUSEWAY ENDED ABRUPTLY AT THE STORE" 
+        intervals [49]:
+            xmin = 505.1534693877551 
+            xmax = 520.9222675736961 
+            text = "sp" 
+        intervals [50]:
+            xmin = 520.9222675736961 
+            xmax = 525.2721995464852 
+            text = "SHE SLIPPED AND SPRAINED HER ANKLE ON THE STEEP SLOPE" 
+        intervals [51]:
+            xmin = 525.2721995464852 
+            xmax = 536.8151473922902 
+            text = "sp" 
+        intervals [52]:
+            xmin = 536.8151473922902 
+            xmax = 540.8461678004535 
+            text = "HELP CELEBRATE YOUR BROTHERS SUCCESS" 
+        intervals [53]:
+            xmin = 540.8461678004535 
+            xmax = 552.3049433106576 
+            text = "sp" 
+        intervals [54]:
+            xmin = 552.3049433106576 
+            xmax = 554.9089342403628 
+            text = "SHOULD GIRAFFES BE KEPT IN SMALL ZOOS" 
+        intervals [55]:
+            xmin = 554.9089342403628 
+            xmax = 570.363537414966 
+            text = "sp" 
+        intervals [56]:
+            xmin = 570.363537414966 
+            xmax = 574.3393197278912 
+            text = "WILL YOU PLEASE CONFIRM GOVERNMENT POLICY REGARDING WASTE REMOVAL" 
+        intervals [57]:
+            xmin = 574.3393197278912 
+            xmax = 583.6663038548753 
+            text = "sp" 
+        intervals [58]:
+            xmin = 583.6663038548753 
+            xmax = 588.395283446712 
+            text = "WEATHERPROOF GALOSHES ARE VERY USEFUL IN SEATTLE" 
+        intervals [59]:
+            xmin = 588.395283446712 
+            xmax = 600.4649433106576 
+            text = "sp" 
+        intervals [60]:
+            xmin = 600.4649433106576 
+            xmax = 604.4710204081632 
+            text = "THEY ASSUME NO BURGLAR WILL EVER ENTER HERE" 
+        intervals [61]:
+            xmin = 604.4710204081632 
+            xmax = 617.8843537414966 
+            text = "sp" 
+        intervals [62]:
+            xmin = 617.8843537414966 
+            xmax = 624.0302947845805 
+            text = "THE SPEECH SIM SYMPOSIUM MIGHT BEGIN ON MONDAY" 
+        intervals [63]:
+            xmin = 624.0302947845805 
+            xmax = 632.6821768707483 
+            text = "sp" 
+        intervals [64]:
+            xmin = 632.6821768707483 
+            xmax = 635.974149659864 
+            text = "ID RATHER NOT BUY THESE SHOES THAN BE OVERCHARGED" 
+        intervals [65]:
+            xmin = 635.974149659864 
+            xmax = 648.1232653061224 
+            text = "sp" 
+        intervals [66]:
+            xmin = 648.1232653061224 
+            xmax = 655.3262585034014 
+            text = "WHICH LONG ARTICLE WAS OH OPAQUE AND NEEDED CLARIFICATION" 
+        intervals [67]:
+            xmin = 655.3262585034014 
+            xmax = 665.6038095238096 
+            text = "sp" 
+        intervals [68]:
+            xmin = 665.6038095238096 
+            xmax = 670.0537868480726 
+            text = "THE OVERWEIGHT CHARMER COULD SLIP POISON INTO ANYONES TEA" 
+        intervals [69]:
+            xmin = 670.0537868480726 
+            xmax = 681.5545578231292 
+            text = "sp" 
+        intervals [70]:
+            xmin = 681.5545578231292 
+            xmax = 687.3415873015873 
+            text = "CURIOSITY AND MEDIOCRITY SELDOM CO EXIST" 
+        intervals [71]:
+            xmin = 687.3415873015873 
+            xmax = 697.9880272108843 
+            text = "sp" 
+        intervals [72]:
+            xmin = 697.9880272108843 
+            xmax = 700.0340136054422 
+            text = "HE WILL ALLOW A RARE LIE" 
+        intervals [73]:
+            xmin = 700.0340136054422 
+            xmax = 709.8930612244898 
+            text = "sp" 
+        intervals [74]:
+            xmin = 709.8930612244898 
+            xmax = 714.0330158730159 
+            text = "A BIG GOAT IDLY AMBLED THROUGH THE FARMYARD" 
+        intervals [75]:
+            xmin = 714.0330158730159 
+            xmax = 724.3826757369615 
+            text = "sp" 
+        intervals [76]:
+            xmin = 724.3826757369615 
+            xmax = 727.0266666666666 
+            text = "HIS SUDDEN DEPARTURE SHOCKED THE CAST" 
+        intervals [77]:
+            xmin = 727.0266666666666 
+            xmax = 737.1927437641723 
+            text = "sp" 

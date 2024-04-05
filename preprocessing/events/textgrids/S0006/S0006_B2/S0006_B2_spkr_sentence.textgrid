@@ -1,0 +1,322 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 617.9903125 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "sentences" 
+        xmin = 0 
+        xmax = 617.9903125 
+        intervals: size = 77 
+        intervals [1]:
+            xmin = 0 
+            xmax = 18.02925 
+            text = "sp" 
+        intervals [2]:
+            xmin = 18.02925 
+            xmax = 21.0895 
+            text = "SHE WORE WARM FLEECY WOOLEN OVERALLS" 
+        intervals [3]:
+            xmin = 21.0895 
+            xmax = 32.3285 
+            text = "sp" 
+        intervals [4]:
+            xmin = 32.3285 
+            xmax = 34.5785 
+            text = "READING IN POOR LIGHT GIVES YOU EYESTRAIN" 
+        intervals [5]:
+            xmin = 34.5785 
+            xmax = 44.0193125 
+            text = "sp" 
+        intervals [6]:
+            xmin = 44.0193125 
+            xmax = 46.8393125 
+            text = "EVEN I OCCASIONALLY GET THE MONDAY BLUES" 
+        intervals [7]:
+            xmin = 46.8393125 
+            xmax = 55.313125 
+            text = "sp" 
+        intervals [8]:
+            xmin = 55.313125 
+            xmax = 57.603125 
+            text = "WE ARE OPEN EVERY MONDAY EVENING" 
+        intervals [9]:
+            xmin = 57.603125 
+            xmax = 66.56675 
+            text = "sp" 
+        intervals [10]:
+            xmin = 66.56675 
+            xmax = 69.40675 
+            text = "ITS NOT EASY TO CREATE ILLUMINATING EXAMPLES" 
+        intervals [11]:
+            xmin = 69.40675 
+            xmax = 77.9649375 
+            text = "sp" 
+        intervals [12]:
+            xmin = 77.9649375 
+            xmax = 80.6149375 
+            text = "MUM STRONGLY DISLIKES APPETIZERS" 
+        intervals [13]:
+            xmin = 80.6149375 
+            xmax = 89.316875 
+            text = "sp" 
+        intervals [14]:
+            xmin = 89.316875 
+            xmax = 92.036875 
+            text = "THOSE WHO TEACH VALUES FIRST ABOLISH CHEATING" 
+        intervals [15]:
+            xmin = 92.036875 
+            xmax = 101.1865 
+            text = "sp" 
+        intervals [16]:
+            xmin = 101.1865 
+            xmax = 104.2765 
+            text = "THE FRIGHTENED CHILD WAS GENTLY SUBDUED BY HIS BIG BROTHER" 
+        intervals [17]:
+            xmin = 104.2765 
+            xmax = 113.0980625 
+            text = "sp" 
+        intervals [18]:
+            xmin = 113.0980625 
+            xmax = 115.9680625 
+            text = "EVEN A SIMPLE VOCABULARY CONTAINS SYMBOLS" 
+        intervals [19]:
+            xmin = 115.9680625 
+            xmax = 125.5326875 
+            text = "sp" 
+        intervals [20]:
+            xmin = 125.5326875 
+            xmax = 128.59475 
+            text = "A CRAB CHALLENGED ME BUT A QUICK STAB VANQUISHED HIM" 
+        intervals [21]:
+            xmin = 128.59475 
+            xmax = 137.888 
+            text = "sp" 
+        intervals [22]:
+            xmin = 137.888 
+            xmax = 140.818 
+            text = "GLUCOSE AND FRUCTOSE ARE NATURAL SUGARS FOUND IN FRUIT" 
+        intervals [23]:
+            xmin = 140.818 
+            xmax = 148.7733125 
+            text = "sp" 
+        intervals [24]:
+            xmin = 148.7733125 
+            xmax = 150.7229375 
+            text = "ARE YOU LOOKING FOR EMPLOYMENT" 
+        intervals [25]:
+            xmin = 150.7229375 
+            xmax = 160.2524375 
+            text = "sp" 
+        intervals [26]:
+            xmin = 160.2524375 
+            xmax = 164.32975 
+            text = "COFFEE IS GROWN ON STEEP JUNGLE LIKE SLOPES IN TEMPERATE ZONES" 
+        intervals [27]:
+            xmin = 164.32975 
+            xmax = 171.84325 
+            text = "sp" 
+        intervals [28]:
+            xmin = 171.84325 
+            xmax = 173.94325 
+            text = "WE WELCOME MANY NEW STUDENTS EACH YEAR" 
+        intervals [29]:
+            xmin = 173.94325 
+            xmax = 181.9680625 
+            text = "sp" 
+        intervals [30]:
+            xmin = 181.9680625 
+            xmax = 184.2628125 
+            text = "ONLY THE BEST PLAYERS ENJOY POPULARITY" 
+        intervals [31]:
+            xmin = 184.2628125 
+            xmax = 192.5298125 
+            text = "sp" 
+        intervals [32]:
+            xmin = 192.5298125 
+            xmax = 194.793 
+            text = "CALCIUM MAKES BONES AND TEETH STRONG" 
+        intervals [33]:
+            xmin = 194.793 
+            xmax = 204.1685625 
+            text = "sp" 
+        intervals [34]:
+            xmin = 204.1685625 
+            xmax = 207.580625 
+            text = "NOTHING IS AS OFFENSIVE AS IN INNOCENCE" 
+        intervals [35]:
+            xmin = 207.580625 
+            xmax = 215.8095625 
+            text = "sp" 
+        intervals [36]:
+            xmin = 215.8095625 
+            xmax = 218.2295625 
+            text = "STEVE WORE A BRIGHT RED CASHMERE SWEATER" 
+        intervals [37]:
+            xmin = 218.2295625 
+            xmax = 227.013125 
+            text = "sp" 
+        intervals [38]:
+            xmin = 227.013125 
+            xmax = 229.83825 
+            text = "BARBS GOLD BRACELET WAS A GRADUATION PRESENT" 
+        intervals [39]:
+            xmin = 229.83825 
+            xmax = 393.12775 
+            text = "sp" 
+        intervals [40]:
+            xmin = 393.12775 
+            xmax = 395.77775 
+            text = "MUM STRONGLY DISLIKES APPETIZERS" 
+        intervals [41]:
+            xmin = 395.77775 
+            xmax = 404.2475 
+            text = "sp" 
+        intervals [42]:
+            xmin = 404.2475 
+            xmax = 406.9675 
+            text = "THOSE WHO TEACH VALUES FIRST ABOLISH CHEATING" 
+        intervals [43]:
+            xmin = 406.9675 
+            xmax = 415.1304375 
+            text = "sp" 
+        intervals [44]:
+            xmin = 415.1304375 
+            xmax = 418.1925 
+            text = "A CRAB CHALLENGED ME BUT A QUICK STAB VANQUISHED HIM" 
+        intervals [45]:
+            xmin = 418.1925 
+            xmax = 426.552125 
+            text = "sp" 
+        intervals [46]:
+            xmin = 426.552125 
+            xmax = 428.50175 
+            text = "ARE YOU LOOKING FOR EMPLOYMENT" 
+        intervals [47]:
+            xmin = 428.50175 
+            xmax = 435.8325 
+            text = "sp" 
+        intervals [48]:
+            xmin = 435.8325 
+            xmax = 438.89275 
+            text = "SHE WORE WARM FLEECY WOOLEN OVERALLS" 
+        intervals [49]:
+            xmin = 438.89275 
+            xmax = 446.720625 
+            text = "sp" 
+        intervals [50]:
+            xmin = 446.720625 
+            xmax = 449.590625 
+            text = "EVEN A SIMPLE VOCABULARY CONTAINS SYMBOLS" 
+        intervals [51]:
+            xmin = 449.590625 
+            xmax = 457.7411875 
+            text = "sp" 
+        intervals [52]:
+            xmin = 457.7411875 
+            xmax = 460.6711875 
+            text = "GLUCOSE AND FRUCTOSE ARE NATURAL SUGARS FOUND IN FRUIT" 
+        intervals [53]:
+            xmin = 460.6711875 
+            xmax = 469.5248125 
+            text = "sp" 
+        intervals [54]:
+            xmin = 469.5248125 
+            xmax = 472.936875 
+            text = "NOTHING IS AS OFFENSIVE AS IN INNOCENCE" 
+        intervals [55]:
+            xmin = 472.936875 
+            xmax = 481.6664375 
+            text = "sp" 
+        intervals [56]:
+            xmin = 481.6664375 
+            xmax = 483.9611875 
+            text = "ONLY THE BEST PLAYERS ENJOY POPULARITY" 
+        intervals [57]:
+            xmin = 483.9611875 
+            xmax = 493.2313125 
+            text = "sp" 
+        intervals [58]:
+            xmin = 493.2313125 
+            xmax = 496.0713125 
+            text = "ITS NOT EASY TO CREATE ILLUMINATING EXAMPLES" 
+        intervals [59]:
+            xmin = 496.0713125 
+            xmax = 504.4080625 
+            text = "sp" 
+        intervals [60]:
+            xmin = 504.4080625 
+            xmax = 506.6980625 
+            text = "WE ARE OPEN EVERY MONDAY EVENING" 
+        intervals [61]:
+            xmin = 506.6980625 
+            xmax = 515.765625 
+            text = "sp" 
+        intervals [62]:
+            xmin = 515.765625 
+            xmax = 518.015625 
+            text = "READING IN POOR LIGHT GIVES YOU EYESTRAIN" 
+        intervals [63]:
+            xmin = 518.015625 
+            xmax = 525.8023125 
+            text = "sp" 
+        intervals [64]:
+            xmin = 525.8023125 
+            xmax = 529.879625 
+            text = "COFFEE IS GROWN ON STEEP JUNGLE LIKE SLOPES IN TEMPERATE ZONES" 
+        intervals [65]:
+            xmin = 529.879625 
+            xmax = 539.1573125 
+            text = "sp" 
+        intervals [66]:
+            xmin = 539.1573125 
+            xmax = 541.9824375 
+            text = "BARBS GOLD BRACELET WAS A GRADUATION PRESENT" 
+        intervals [67]:
+            xmin = 541.9824375 
+            xmax = 552.3295625 
+            text = "sp" 
+        intervals [68]:
+            xmin = 552.3295625 
+            xmax = 555.1495625 
+            text = "EVEN I OCCASIONALLY GET THE MONDAY BLUES" 
+        intervals [69]:
+            xmin = 555.1495625 
+            xmax = 563.1950625 
+            text = "sp" 
+        intervals [70]:
+            xmin = 563.1950625 
+            xmax = 565.2950625 
+            text = "WE WELCOME MANY NEW STUDENTS EACH YEAR" 
+        intervals [71]:
+            xmin = 565.2950625 
+            xmax = 573.6916875 
+            text = "sp" 
+        intervals [72]:
+            xmin = 573.6916875 
+            xmax = 576.7816875 
+            text = "THE FRIGHTENED CHILD WAS GENTLY SUBDUED BY HIS BIG BROTHER" 
+        intervals [73]:
+            xmin = 576.7816875 
+            xmax = 585.4971875 
+            text = "sp" 
+        intervals [74]:
+            xmin = 585.4971875 
+            xmax = 587.9171875 
+            text = "STEVE WORE A BRIGHT RED CASHMERE SWEATER" 
+        intervals [75]:
+            xmin = 587.9171875 
+            xmax = 607.1849375 
+            text = "sp" 
+        intervals [76]:
+            xmin = 607.1849375 
+            xmax = 609.448125 
+            text = "CALCIUM MAKES BONES AND TEETH STRONG" 
+        intervals [77]:
+            xmin = 609.448125 
+            xmax = 617.9903125 
+            text = "sp" 

@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 224.1441795690997 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "event" 
+        xmin = 0 
+        xmax = 224.1441795690997 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 28.173198631423606 
+            text = "sp" 
+        intervals [2]:
+            xmin = 28.173198631423606 
+            xmax = 28.799652030860894 
+            text = "aaaa" 
+        intervals [3]:
+            xmin = 28.799652030860894 
+            xmax = 32.36782559067635 
+            text = "sp" 
+        intervals [4]:
+            xmin = 32.36782559067635 
+            xmax = 34.2781983335148 
+            text = "ooee" 
+        intervals [5]:
+            xmin = 34.2781983335148 
+            xmax = 159.109255283499 
+            text = "sp" 
+        intervals [6]:
+            xmin = 159.109255283499 
+            xmax = 162.21050973615885 
+            text = "ooee" 
+        intervals [7]:
+            xmin = 162.21050973615885 
+            xmax = 174.71395994262326 
+            text = "sp" 
+        intervals [8]:
+            xmin = 174.71395994262326 
+            xmax = 175.39003341330312 
+            text = "aaaa" 
+        intervals [9]:
+            xmin = 175.39003341330312 
+            xmax = 182.97516515041758 
+            text = "sp" 
+        intervals [10]:
+            xmin = 182.97516515041758 
+            xmax = 185.82831924686465 
+            text = "ooee" 
+        intervals [11]:
+            xmin = 185.82831924686465 
+            xmax = 192.13006829466948 
+            text = "sp" 
+        intervals [12]:
+            xmin = 192.13006829466948 
+            xmax = 192.87436936330784 
+            text = "aaaa" 
+        intervals [13]:
+            xmin = 192.87436936330784 
+            xmax = 224.1441795690997 
+            text = "sp" 

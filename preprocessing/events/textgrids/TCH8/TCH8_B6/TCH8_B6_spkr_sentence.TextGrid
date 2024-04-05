@@ -1,0 +1,362 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 965.0003628117914 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "sentences" 
+        xmin = 0 
+        xmax = 965.0003628117914 
+        intervals: size = 87 
+        intervals [1]:
+            xmin = 0 
+            xmax = 47.600362811791385 
+            text = "sp" 
+        intervals [2]:
+            xmin = 47.600362811791385 
+            xmax = 49.24399092970521 
+            text = "ROBIN LIKES THE COLOR YELLOW" 
+        intervals [3]:
+            xmin = 49.24399092970521 
+            xmax = 59.41786848072562 
+            text = "sp" 
+        intervals [4]:
+            xmin = 59.41786848072562 
+            xmax = 60.525895691609975 
+            text = "IS SHE GOING WITH YOU" 
+        intervals [5]:
+            xmin = 60.525895691609975 
+            xmax = 73.81006802721089 
+            text = "sp" 
+        intervals [6]:
+            xmin = 73.81006802721089 
+            xmax = 76.38766439909297 
+            text = "WHICH THEATER SHOWS MOTHER GOOSE" 
+        intervals [7]:
+            xmin = 76.38766439909297 
+            xmax = 88.80380952380952 
+            text = "sp" 
+        intervals [8]:
+            xmin = 88.80380952380952 
+            xmax = 91.21986394557823 
+            text = "CUT A SMALL CORNER OFF E EACH EDGE" 
+        intervals [9]:
+            xmin = 91.21986394557823 
+            xmax = 101.13895691609977 
+            text = "sp" 
+        intervals [10]:
+            xmin = 101.13895691609977 
+            xmax = 103.40580498866213 
+            text = "THEY ALL ENJOY ICE CREAM SUNDAES" 
+        intervals [11]:
+            xmin = 103.40580498866213 
+            xmax = 145.0950566893424 
+            text = "sp" 
+        intervals [12]:
+            xmin = 145.0950566893424 
+            xmax = 147.15065759637187 
+            text = "TOM READS THE SAME BOOK EVERY NIGHT" 
+        intervals [13]:
+            xmin = 147.15065759637187 
+            xmax = 158.51718820861677 
+            text = "sp" 
+        intervals [14]:
+            xmin = 158.51718820861677 
+            xmax = 160.84163265306123 
+            text = "HE ATE FOUR EGGS FOR BREAKFAST" 
+        intervals [15]:
+            xmin = 160.84163265306123 
+            xmax = 176.77632653061224 
+            text = "sp" 
+        intervals [16]:
+            xmin = 176.77632653061224 
+            xmax = 179.29732426303855 
+            text = "THEY OFTEN GO OUT IN THE EVENING" 
+        intervals [17]:
+            xmin = 179.29732426303855 
+            xmax = 197.0706575963719 
+            text = "sp" 
+        intervals [18]:
+            xmin = 197.0706575963719 
+            xmax = 199.2704761904762 
+            text = "SPRING STREET IS STRAIGHT AHEAD" 
+        intervals [19]:
+            xmin = 199.2704761904762 
+            xmax = 210.1415873015873 
+            text = "sp" 
+        intervals [20]:
+            xmin = 210.1415873015873 
+            xmax = 211.2995918367347 
+            text = "THIS SEESAW SAFE" 
+        intervals [21]:
+            xmin = 211.2995918367347 
+            xmax = 223.24308390022676 
+            text = "sp" 
+        intervals [22]:
+            xmin = 223.24308390022676 
+            xmax = 225.0890702947846 
+            text = "THIS WAS EASY FOR US" 
+        intervals [23]:
+            xmin = 225.0890702947846 
+            xmax = 236.7328798185941 
+            text = "sp" 
+        intervals [24]:
+            xmin = 236.7328798185941 
+            xmax = 238.94784580498867 
+            text = "MET A PURPLE CRAB ON THE BEACH" 
+        intervals [25]:
+            xmin = 238.94784580498867 
+            xmax = 248.97333333333333 
+            text = "sp" 
+        intervals [26]:
+            xmin = 248.97333333333333 
+            xmax = 250.94829931972788 
+            text = "DONT DO CHARLIES DIRTY DISHES" 
+        intervals [27]:
+            xmin = 250.94829931972788 
+            xmax = 262.0234920634921 
+            text = "sp" 
+        intervals [28]:
+            xmin = 262.0234920634921 
+            xmax = 264.96553287981857 
+            text = "SHOULD GIRAFFE BE KEPT IN SMALL ZOOS" 
+        intervals [29]:
+            xmin = 264.96553287981857 
+            xmax = 281.1970975056689 
+            text = "sp" 
+        intervals [30]:
+            xmin = 281.1970975056689 
+            xmax = 283.7851247165533 
+            text = "EVEN I GET MONDAY BLUES" 
+        intervals [31]:
+            xmin = 283.7851247165533 
+            xmax = 296.8943310657596 
+            text = "sp" 
+        intervals [32]:
+            xmin = 296.8943310657596 
+            xmax = 299.95673469387754 
+            text = "THEY OWN A BIG HOUSE IN AUSTIN TEXAS" 
+        intervals [33]:
+            xmin = 299.95673469387754 
+            xmax = 310.4405442176871 
+            text = "sp" 
+        intervals [34]:
+            xmin = 310.4405442176871 
+            xmax = 311.9675283446712 
+            text = "BLUE CHEESE SMELLS FUNNY" 
+        intervals [35]:
+            xmin = 311.9675283446712 
+            xmax = 325.4916099773243 
+            text = "sp" 
+        intervals [36]:
+            xmin = 325.4916099773243 
+            xmax = 328.36680272108845 
+            text = "THE BIG DOG LOVED TO CHEW ON THE OLD RAG DOLL" 
+        intervals [37]:
+            xmin = 328.36680272108845 
+            xmax = 339.4682993197279 
+            text = "sp" 
+        intervals [38]:
+            xmin = 339.4682993197279 
+            xmax = 341.489433106576 
+            text = "GUESS THE QUESTION FROM THE ANSWER" 
+        intervals [39]:
+            xmin = 341.489433106576 
+            xmax = 353.9412244897959 
+            text = "sp" 
+        intervals [40]:
+            xmin = 353.9412244897959 
+            xmax = 356.0419047619048 
+            text = "SWING YOUR ARM AS HIGH AS YOU CAN" 
+        intervals [41]:
+            xmin = 356.0419047619048 
+            xmax = 372.8554195011338 
+            text = "sp" 
+        intervals [42]:
+            xmin = 372.8554195011338 
+            xmax = 374.5777777777778 
+            text = "PLEASE SING JUST THE CLUB THEME" 
+        intervals [43]:
+            xmin = 374.5777777777778 
+            xmax = 400.6426303854875 
+            text = "sp" 
+        intervals [44]:
+            xmin = 400.6426303854875 
+            xmax = 407.07591836734696 
+            text = "THE AN THE ANGRY BUR ANGRY BOY DUH DIDNT NOT DIDNT DIDNT LOOK UP" 
+        intervals [45]:
+            xmin = 407.07591836734696 
+            xmax = 511.2556916099773 
+            text = "sp" 
+        intervals [46]:
+            xmin = 511.2556916099773 
+            xmax = 513.5225396825397 
+            text = "THEY ALL ENJOY ICE CREAM SUNDAES" 
+        intervals [47]:
+            xmin = 513.5225396825397 
+            xmax = 524.3956462585033 
+            text = "sp" 
+        intervals [48]:
+            xmin = 524.3956462585033 
+            xmax = 526.5954648526077 
+            text = "SPRING STREET IS STRAIGHT AHEAD" 
+        intervals [49]:
+            xmin = 526.5954648526077 
+            xmax = 549.9769614512471 
+            text = "sp" 
+        intervals [50]:
+            xmin = 549.9769614512471 
+            xmax = 551.9980952380953 
+            text = "GUESS THE QUESTION FROM THE ANSWER" 
+        intervals [51]:
+            xmin = 551.9980952380953 
+            xmax = 570.1179138321995 
+            text = "sp" 
+        intervals [52]:
+            xmin = 570.1179138321995 
+            xmax = 572.9931065759637 
+            text = "THE BIG DOG LOVED TO CHEW ON THE OLD RAG DOLL" 
+        intervals [53]:
+            xmin = 572.9931065759637 
+            xmax = 593.5424036281179 
+            text = "sp" 
+        intervals [54]:
+            xmin = 593.5424036281179 
+            xmax = 594.9586394557823 
+            text = "I TOOK HER WORD FOR IT" 
+        intervals [55]:
+            xmin = 594.9586394557823 
+            xmax = 607.426485260771 
+            text = "sp" 
+        intervals [56]:
+            xmin = 607.426485260771 
+            xmax = 609.8424489795918 
+            text = "CUT A SMALL CORNER OFF E EACH EDGE" 
+        intervals [57]:
+            xmin = 609.8424489795918 
+            xmax = 635.9975510204082 
+            text = "sp" 
+        intervals [58]:
+            xmin = 635.9975510204082 
+            xmax = 642.4308390022676 
+            text = "THE AN THE ANGRY BUR ANGRY BOY DUH DIDNT NOT DIDNT DIDNT LOOK UP" 
+        intervals [59]:
+            xmin = 642.4308390022676 
+            xmax = 669.7715192743764 
+            text = "sp" 
+        intervals [60]:
+            xmin = 669.7715192743764 
+            xmax = 670.8795464852608 
+            text = "IS SHE GOING WITH YOU" 
+        intervals [61]:
+            xmin = 670.8795464852608 
+            xmax = 700.6507029478458 
+            text = "sp" 
+        intervals [62]:
+            xmin = 700.6507029478458 
+            xmax = 702.9751473922903 
+            text = "HE ATE FOUR EGGS FOR BREAKFAST" 
+        intervals [63]:
+            xmin = 702.9751473922903 
+            xmax = 723.0796371882086 
+            text = "sp" 
+        intervals [64]:
+            xmin = 723.0796371882086 
+            xmax = 725.6676643990929 
+            text = "EVEN I GET MONDAY BLUES" 
+        intervals [65]:
+            xmin = 725.6676643990929 
+            xmax = 743.9411337868481 
+            text = "sp" 
+        intervals [66]:
+            xmin = 743.9411337868481 
+            xmax = 746.0418140589569 
+            text = "SWING YOUR ARM AS HIGH AS YOU CAN" 
+        intervals [67]:
+            xmin = 746.0418140589569 
+            xmax = 757.7466666666667 
+            text = "sp" 
+        intervals [68]:
+            xmin = 757.7466666666667 
+            xmax = 759.3902947845805 
+            text = "ROBIN LIKES THE COLOR YELLOW" 
+        intervals [69]:
+            xmin = 759.3902947845805 
+            xmax = 779.8565079365079 
+            text = "sp" 
+        intervals [70]:
+            xmin = 779.8565079365079 
+            xmax = 781.0145124716553 
+            text = "THIS SEESAW SAFE" 
+        intervals [71]:
+            xmin = 781.0145124716553 
+            xmax = 791.0790929705215 
+            text = "sp" 
+        intervals [72]:
+            xmin = 791.0790929705215 
+            xmax = 794.0210430839003 
+            text = "SHOULD GIRAFFE BE KEPT IN SMALL ZOOS" 
+        intervals [73]:
+            xmin = 794.0210430839003 
+            xmax = 816.5606349206349 
+            text = "sp" 
+        intervals [74]:
+            xmin = 816.5606349206349 
+            xmax = 818.2829931972789 
+            text = "PLEASE SING JUST THE CLUB THEME" 
+        intervals [75]:
+            xmin = 818.2829931972789 
+            xmax = 851.7877551020408 
+            text = "sp" 
+        intervals [76]:
+            xmin = 851.7877551020408 
+            xmax = 853.8433560090702 
+            text = "TOM READS THE SAME BOOK EVERY NIGHT" 
+        intervals [77]:
+            xmin = 853.8433560090702 
+            xmax = 866.9760544217687 
+            text = "sp" 
+        intervals [78]:
+            xmin = 866.9760544217687 
+            xmax = 868.5030385487528 
+            text = "BLUE CHEESE SMELLS FUNNY" 
+        intervals [79]:
+            xmin = 868.5030385487528 
+            xmax = 878.0689342403629 
+            text = "sp" 
+        intervals [80]:
+            xmin = 878.0689342403629 
+            xmax = 881.1314285714286 
+            text = "THEY OWN A BIG HOUSE IN AUSTIN TEXAS" 
+        intervals [81]:
+            xmin = 881.1314285714286 
+            xmax = 892.8313832199547 
+            text = "sp" 
+        intervals [82]:
+            xmin = 892.8313832199547 
+            xmax = 895.4089795918368 
+            text = "WHICH THEATER SHOWS MOTHER GOOSE" 
+        intervals [83]:
+            xmin = 895.4089795918368 
+            xmax = 906.1607256235827 
+            text = "sp" 
+        intervals [84]:
+            xmin = 906.1607256235827 
+            xmax = 908.1356916099774 
+            text = "DONT DO CHARLIES DIRTY DISHES" 
+        intervals [85]:
+            xmin = 908.1356916099774 
+            xmax = 955.8278458049887 
+            text = "sp" 
+        intervals [86]:
+            xmin = 955.8278458049887 
+            xmax = 958.348843537415 
+            text = "THEY OFTEN GO OUT IN THE EVENING" 
+        intervals [87]:
+            xmin = 958.348843537415 
+            xmax = 965.0003628117914 
+            text = "sp" 
