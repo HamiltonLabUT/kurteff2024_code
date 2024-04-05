@@ -1,0 +1,87 @@
+October 12, 2020 at 3:26:02 PM
+ONSET PROD LOG FILE
+S0007_B4
+Trial	CumTrial	TrialPart	CurrentBlock	Time	MOCHARead	MOCHAHeard	CurrentRepetition
+1	1	readRepeat	echolalia	32125.589090958	Diane may splurge and buy a turquoise necklace.	Diane may splurge and buy a turquoise necklace.	0
+1	1	listen	echolalia	32134.992969625	Diane may splurge and buy a turquoise necklace.	Diane may splurge and buy a turquoise necklace.	0
+2	2	readRepeat	echolalia	32139.880047416	Grandmother outgrew her upbringing in petticoats.	Grandmother outgrew her upbringing in petticoats.	0
+2	2	listen	echolalia	32152.192568541	Grandmother outgrew her upbringing in petticoats.	Grandmother outgrew her upbringing in petticoats.	0
+3	3	readRepeat	echolalia	32197.155376833	Objects made of pewter are beautiful.	Objects made of pewter are beautiful.	0
+3	3	listen	echolalia	32232.143381958	Objects made of pewter are beautiful.	Objects made of pewter are beautiful.	0
+4	4	readRepeat	echolalia	32316.268656208	Artificial intelligence is for real.	Artificial intelligence is for real.	0
+4	4	listen	echolalia	32321.806154125	Artificial intelligence is for real.	Artificial intelligence is for real.	0
+5	5	readRepeat	echolalia	32327.756299041	Todd placed top priority on getting his bike fixed.	Todd placed top priority on getting his bike fixed.	0
+5	5	listen	echolalia	32334.556395208	Todd placed top priority on getting his bike fixed.	Todd placed top priority on getting his bike fixed.	0
+6	6	readRepeat	echolalia	32342.343814041	When peeling an orange, it is hard not to spray juice.	When peeling an orange, it is hard not to spray juice.	0
+6	6	listen	echolalia	32351.569195833	When peeling an orange, it is hard not to spray juice.	When peeling an orange, it is hard not to spray juice.	0
+7	7	readRepeat	echolalia	32361.41852725	The morning dew on the spider web glistened in the sun.	The morning dew on the spider web glistened in the sun.	0
+7	7	listen	echolalia	32368.956479916	The morning dew on the spider web glistened in the sun.	The morning dew on the spider web glistened in the sun.	0
+8	8	readRepeat	echolalia	32376.931382625	Tornados often destroy aviaries.	Tornados often destroy aviaries.	0
+8	8	listen	echolalia	32383.019025208	Tornados often destroy aviaries.	Tornados often destroy aviaries.	0
+9	9	readRepeat	echolalia	32389.906977833	They remained lifelong friends and companions.	They remained lifelong friends and companions.	0
+9	9	listen	echolalia	32396.369045041	They remained lifelong friends and companions.	They remained lifelong friends and companions.	0
+10	10	readRepeat	echolalia	32403.231794083	The football team coach has a watch as thin as a dime.	The football team coach has a watch as thin as a dime.	0
+10	10	listen	echolalia	32411.05696125	The football team coach has a watch as thin as a dime.	The football team coach has a watch as thin as a dime.	0
+11	11	readRepeat	echolalia	32419.381625958	They often go out in the evening.	They often go out in the evening.	0
+11	11	listen	echolalia	32423.99492375	They often go out in the evening.	They often go out in the evening.	0
+12	12	readRepeat	echolalia	32429.044259791	Our experiment's positive outcome was unexpected.	Our experiment's positive outcome was unexpected.	0
+12	12	listen	echolalia	32435.594110958	Our experiment's positive outcome was unexpected.	Our experiment's positive outcome was unexpected.	0
+13	13	readRepeat	echolalia	32442.569386916	Each stag surely finds a big fawn.	Each stag surely finds a big fawn.	0
+13	13	listen	echolalia	32449.219305625	Each stag surely finds a big fawn.	Each stag surely finds a big fawn.	0
+14	14	readRepeat	echolalia	32456.2944895	The cigarettes in the clay ashtray overflowed onto the oak table.	The cigarettes in the clay ashtray overflowed onto the oak table.	0
+14	14	listen	echolalia	32464.407063333	The cigarettes in the clay ashtray overflowed onto the oak table.	The cigarettes in the clay ashtray overflowed onto the oak table.	0
+15	15	readRepeat	echolalia	32473.119448166	Project development was proceeding too slowly.	Project development was proceeding too slowly.	0
+15	15	listen	echolalia	32478.869529375	Project development was proceeding too slowly.	Project development was proceeding too slowly.	0
+16	16	readRepeat	echolalia	32485.069548833	Will Robin wear a yellow lily?	Will Robin wear a yellow lily?	0
+16	16	listen	echolalia	32491.732004333	Will Robin wear a yellow lily?	Will Robin wear a yellow lily?	0
+17	17	readRepeat	echolalia	32499.294759583	Thomas thinks a larger clamp solves the problem.	Thomas thinks a larger clamp solves the problem.	0
+17	17	listen	echolalia	32506.157226458	Thomas thinks a larger clamp solves the problem.	Thomas thinks a larger clamp solves the problem.	0
+18	18	readRepeat	echolalia	32513.832936666	This was easy for us.	This was easy for us.	0
+18	18	listen	echolalia	32517.795086125	This was easy for us.	This was easy for us.	0
+19	19	readRepeat	echolalia	32522.344493583	December and January are nice months to spend in Miami.	December and January are nice months to spend in Miami.	0
+19	19	listen	echolalia	32529.645005458	December and January are nice months to spend in Miami.	December and January are nice months to spend in Miami.	0
+20	20	readRepeat	echolalia	32552.10741875	Last year's gas shortage caused steep price increases.	Last year's gas shortage caused steep price increases.	0
+20	20	listen	echolalia	32559.957532625	Last year's gas shortage caused steep price increases.	Last year's gas shortage caused steep price increases.	0
+0	0	break	break	32568.145058916	break	break	break
+0	0	break	break	32575.657464666	break	break	break
+1	21	readRepeat	shuffled	32575.657464666	Diane may splurge and buy a turquoise necklace.	Tornados often destroy aviaries.	0
+1	21	listen	shuffled	32585.670588166	Diane may splurge and buy a turquoise necklace.	Tornados often destroy aviaries.	0
+2	22	readRepeat	shuffled	32592.319897375	Grandmother outgrew her upbringing in petticoats.	The cigarettes in the clay ashtray overflowed onto the oak table.	0
+2	22	listen	shuffled	32598.996316333	Grandmother outgrew her upbringing in petticoats.	The cigarettes in the clay ashtray overflowed onto the oak table.	0
+3	23	readRepeat	shuffled	32607.545420625	Objects made of pewter are beautiful.	Last year's gas shortage caused steep price increases.	0
+3	23	listen	shuffled	32613.558415875	Objects made of pewter are beautiful.	Last year's gas shortage caused steep price increases.	0
+4	24	readRepeat	shuffled	32621.79571425	Artificial intelligence is for real.	This was easy for us.	0
+4	24	listen	shuffled	32628.245452333	Artificial intelligence is for real.	This was easy for us.	0
+5	25	readRepeat	shuffled	32633.670470125	Todd placed top priority on getting his bike fixed.	Todd placed top priority on getting his bike fixed.	0
+5	25	listen	shuffled	32640.445533666	Todd placed top priority on getting his bike fixed.	Todd placed top priority on getting his bike fixed.	0
+6	26	readRepeat	shuffled	32648.020753041	When peeling an orange, it is hard not to spray juice.	They remained lifelong friends and companions.	0
+6	26	listen	shuffled	32654.308231	When peeling an orange, it is hard not to spray juice.	They remained lifelong friends and companions.	0
+7	27	readRepeat	shuffled	32661.158284708	The morning dew on the spider web glistened in the sun.	Our experiment's positive outcome was unexpected.	0
+7	27	listen	shuffled	32667.695679458	The morning dew on the spider web glistened in the sun.	Our experiment's positive outcome was unexpected.	0
+8	28	readRepeat	shuffled	32675.020902083	Tornados often destroy aviaries.	Thomas thinks a larger clamp solves the problem.	0
+8	28	listen	shuffled	32680.008504458	Tornados often destroy aviaries.	Thomas thinks a larger clamp solves the problem.	0
+9	29	readRepeat	shuffled	32687.458613083	They remained lifelong friends and companions.	December and January are nice months to spend in Miami.	0
+9	29	listen	shuffled	32693.55849725	They remained lifelong friends and companions.	December and January are nice months to spend in Miami.	0
+10	30	readRepeat	shuffled	32701.570921541	The football team coach has a watch as thin as a dime.	Project development was proceeding too slowly.	0
+10	30	listen	shuffled	32709.533213458	The football team coach has a watch as thin as a dime.	Project development was proceeding too slowly.	0
+11	31	readRepeat	shuffled	32715.896161958	They often go out in the evening.	Diane may splurge and buy a turquoise necklace.	0
+11	31	listen	shuffled	32721.7589045	They often go out in the evening.	Diane may splurge and buy a turquoise necklace.	0
+12	32	readRepeat	shuffled	32724.558779458	Our experiment's positive outcome was unexpected.	Each stag surely finds a big fawn.	0
+12	32	listen	shuffled	32730.783599666	Our experiment's positive outcome was unexpected.	Each stag surely finds a big fawn.	0
+13	33	readRepeat	shuffled	32737.970757041	Each stag surely finds a big fawn.	Grandmother outgrew her upbringing in petticoats.	0
+13	33	listen	shuffled	32743.5712665	Each stag surely finds a big fawn.	Grandmother outgrew her upbringing in petticoats.	0
+14	34	readRepeat	shuffled	32756.471232583	The cigarettes in the clay ashtray overflowed onto the oak table.	The football team coach has a watch as thin as a dime.	0
+14	34	listen	shuffled	32763.546167916	The cigarettes in the clay ashtray overflowed onto the oak table.	The football team coach has a watch as thin as a dime.	0
+15	35	readRepeat	shuffled	32771.858974916	Project development was proceeding too slowly.	Objects made of pewter are beautiful.	0
+15	35	listen	shuffled	32778.446468875	Project development was proceeding too slowly.	Objects made of pewter are beautiful.	0
+16	36	readRepeat	shuffled	32816.808983208	Will Robin wear a yellow lily?	When peeling an orange, it is hard not to spray juice.	0
+16	36	listen	shuffled	32821.696669666	Will Robin wear a yellow lily?	When peeling an orange, it is hard not to spray juice.	0
+17	37	readRepeat	shuffled	32831.421667916	Thomas thinks a larger clamp solves the problem.	Artificial intelligence is for real.	0
+17	37	listen	shuffled	32837.159707	Thomas thinks a larger clamp solves the problem.	Artificial intelligence is for real.	0
+18	38	readRepeat	shuffled	32843.046626666	This was easy for us.	The morning dew on the spider web glistened in the sun.	0
+18	38	listen	shuffled	32850.034360125	This was easy for us.	The morning dew on the spider web glistened in the sun.	0
+19	39	readRepeat	shuffled	32858.222400041	December and January are nice months to spend in Miami.	They often go out in the evening.	0
+19	39	listen	shuffled	32864.882654708	December and January are nice months to spend in Miami.	They often go out in the evening.	0
+20	40	readRepeat	shuffled	32870.371937208	Last year's gas shortage caused steep price increases.	Will Robin wear a yellow lily?	0
+20	40	listen	shuffled	32881.047106916	Last year's gas shortage caused steep price increases.	Will Robin wear a yellow lily?	0
+

@@ -1,0 +1,86 @@
+February 15, 2020 at 4:54:31 PM
+ONSET PROD LOG FILE
+S0006_B6
+Trial	CumTrial	TrialPart	CurrentBlock	Time	MOCHARead	MOCHAHeard	CurrentRepetition
+1	1	readRepeat	echolalia	1162347.4116295	Agricultural products are unevenly distributed.	Agricultural products are unevenly distributed.	0
+1	1	listen	echolalia	1162353.06408875	Agricultural products are unevenly distributed.	Agricultural products are unevenly distributed.	0
+2	2	readRepeat	echolalia	1162355.363898208	By eating yogurt, you may live longer.	By eating yogurt, you may live longer.	0
+2	2	listen	echolalia	1162359.699066791	By eating yogurt, you may live longer.	By eating yogurt, you may live longer.	0
+3	3	readRepeat	echolalia	1162364.680876041	The causeway ended abruptly at the shore.	The causeway ended abruptly at the shore.	0
+3	3	listen	echolalia	1162369.714540875	The causeway ended abruptly at the shore.	The causeway ended abruptly at the shore.	0
+4	4	readRepeat	echolalia	1162375.364411916	Weatherproof galoshes are very useful in Seattle.	Weatherproof galoshes are very useful in Seattle.	0
+4	4	listen	echolalia	1162380.731287	Weatherproof galoshes are very useful in Seattle.	Weatherproof galoshes are very useful in Seattle.	0
+5	5	readRepeat	echolalia	1162386.765382375	The speech symposium might begin on Monday.	The speech symposium might begin on Monday.	0
+5	5	listen	echolalia	1162392.899308041	The speech symposium might begin on Monday.	The speech symposium might begin on Monday.	0
+6	6	readRepeat	echolalia	1162399.764781458	I'd rather not buy these shoes than be overcharged.	I'd rather not buy these shoes than be overcharged.	0
+6	6	listen	echolalia	1162404.983517416	I'd rather not buy these shoes than be overcharged.	I'd rather not buy these shoes than be overcharged.	0
+7	7	readRepeat	echolalia	1162411.066929833	Be careful not to plow over the flower beds.	Be careful not to plow over the flower beds.	0
+7	7	listen	echolalia	1162415.683273	Be careful not to plow over the flower beds.	Be careful not to plow over the flower beds.	0
+8	8	readRepeat	echolalia	1162420.800580916	The overweight charmer could slip poison into anyone's tea.	The overweight charmer could slip poison into anyone's tea.	0
+8	8	listen	echolalia	1162426.41626625	The overweight charmer could slip poison into anyone's tea.	The overweight charmer could slip poison into anyone's tea.	0
+9	9	readRepeat	echolalia	1162432.551677833	The angry boy answered but didn't look up.	The angry boy answered but didn't look up.	0
+9	9	listen	echolalia	1162437.268821125	The angry boy answered but didn't look up.	The angry boy answered but didn't look up.	0
+10	10	readRepeat	echolalia	1162442.602240416	Which long article was opaque and needed clarification?	Which long article was opaque and needed clarification?	0
+10	10	listen	echolalia	1162448.002221041	Which long article was opaque and needed clarification?	Which long article was opaque and needed clarification?	0
+11	11	readRepeat	echolalia	1162454.102557708	Help celebrate your brother's success.	Help celebrate your brother's success.	0
+11	11	listen	echolalia	1162458.319746791	Help celebrate your brother's success.	Help celebrate your brother's success.	0
+12	12	readRepeat	echolalia	1162463.487032958	Will you please confirm government policy regarding waste removal?	Will you please confirm government policy regarding waste removal?	0
+12	12	listen	echolalia	1162469.586813833	Will you please confirm government policy regarding waste removal?	Will you please confirm government policy regarding waste removal?	0
+13	13	readRepeat	echolalia	1162476.620563666	They assume no burglar will ever enter here.	They assume no burglar will ever enter here.	0
+13	13	listen	echolalia	1162481.4714505	They assume no burglar will ever enter here.	They assume no burglar will ever enter here.	0
+14	14	readRepeat	echolalia	1162486.971087708	He will allow a rare lie.	He will allow a rare lie.	0
+14	14	listen	echolalia	1162490.82187025	He will allow a rare lie.	He will allow a rare lie.	0
+15	15	readRepeat	echolalia	1162495.538541083	Curiosity and mediocrity seldom co-exist.	Curiosity and mediocrity seldom co-exist.	0
+15	15	listen	echolalia	1162500.755591875	Curiosity and mediocrity seldom co-exist.	Curiosity and mediocrity seldom co-exist.	0
+16	16	readRepeat	echolalia	1162506.505944916	His sudden departure shocked the cast.	His sudden departure shocked the cast.	0
+16	16	listen	echolalia	1162510.889356666	His sudden departure shocked the cast.	His sudden departure shocked the cast.	0
+17	17	readRepeat	echolalia	1162515.822749708	She slipped and sprained her ankle on the steep slope.	She slipped and sprained her ankle on the steep slope.	0
+17	17	listen	echolalia	1162520.904892666	She slipped and sprained her ankle on the steep slope.	She slipped and sprained her ankle on the steep slope.	0
+18	18	readRepeat	echolalia	1162527.458418375	A big goat idly ambled through the farmyard.	A big goat idly ambled through the farmyard.	0
+18	18	listen	echolalia	1162532.4569255	A big goat idly ambled through the farmyard.	A big goat idly ambled through the farmyard.	0
+19	19	readRepeat	echolalia	1162538.440938375	Should giraffes be kept in small zoos?	Should giraffes be kept in small zoos?	0
+19	19	listen	echolalia	1162543.107308958	Should giraffes be kept in small zoos?	Should giraffes be kept in small zoos?	0
+20	20	readRepeat	echolalia	1162548.4581675	We got drenched from the uninterrupted rain.	We got drenched from the uninterrupted rain.	0
+20	20	listen	echolalia	1162553.308646791	We got drenched from the uninterrupted rain.	We got drenched from the uninterrupted rain.	0
+0	0	break	break	1162559.275536416	break	break	break
+1	21	readRepeat	shuffled	1162559.275536416	Agricultural products are unevenly distributed.	The causeway ended abruptly at the shore.	0
+1	21	listen	shuffled	1162573.692920166	Agricultural products are unevenly distributed.	The causeway ended abruptly at the shore.	0
+2	22	readRepeat	shuffled	1162579.509726041	By eating yogurt, you may live longer.	Which long article was opaque and needed clarification?	0
+2	22	listen	shuffled	1162583.860345875	By eating yogurt, you may live longer.	Which long article was opaque and needed clarification?	0
+3	23	readRepeat	shuffled	1162589.793218208	The causeway ended abruptly at the shore.	He will allow a rare lie.	0
+3	23	listen	shuffled	1162594.327186	The causeway ended abruptly at the shore.	He will allow a rare lie.	0
+4	24	readRepeat	shuffled	1162598.894203916	Weatherproof galoshes are very useful in Seattle.	Should giraffes be kept in small zoos?	0
+4	24	listen	shuffled	1162604.261176833	Weatherproof galoshes are very useful in Seattle.	Should giraffes be kept in small zoos?	0
+5	25	readRepeat	shuffled	1162609.611440958	The speech symposium might begin on Monday.	The overweight charmer could slip poison into anyone's tea.	0
+5	25	listen	shuffled	1162614.3953155	The speech symposium might begin on Monday.	The overweight charmer could slip poison into anyone's tea.	0
+6	26	readRepeat	shuffled	1162620.545247333	I'd rather not buy these shoes than be overcharged.	Help celebrate your brother's success.	0
+6	26	listen	shuffled	1162625.395833541	I'd rather not buy these shoes than be overcharged.	Help celebrate your brother's success.	0
+7	27	readRepeat	shuffled	1162630.712660166	Be careful not to plow over the flower beds.	The speech symposium might begin on Monday.	0
+7	27	listen	shuffled	1162635.29642175	Be careful not to plow over the flower beds.	The speech symposium might begin on Monday.	0
+8	28	readRepeat	shuffled	1162642.461661041	The overweight charmer could slip poison into anyone's tea.	We got drenched from the uninterrupted rain.	0
+8	28	listen	shuffled	1162647.647283833	The overweight charmer could slip poison into anyone's tea.	We got drenched from the uninterrupted rain.	0
+9	29	readRepeat	shuffled	1162653.297247458	The angry boy answered but didn't look up.	I'd rather not buy these shoes than be overcharged.	0
+9	29	listen	shuffled	1162657.681265	The angry boy answered but didn't look up.	I'd rather not buy these shoes than be overcharged.	0
+10	30	readRepeat	shuffled	1162663.61435	Which long article was opaque and needed clarification?	By eating yogurt, you may live longer.	0
+10	30	listen	shuffled	1162668.698278333	Which long article was opaque and needed clarification?	By eating yogurt, you may live longer.	0
+11	31	readRepeat	shuffled	1162673.998276125	Help celebrate your brother's success.	Weatherproof galoshes are very useful in Seattle.	0
+11	31	listen	shuffled	1162678.36535825	Help celebrate your brother's success.	Weatherproof galoshes are very useful in Seattle.	0
+12	32	readRepeat	shuffled	1162684.732223041	Will you please confirm government policy regarding waste removal?	Curiosity and mediocrity seldom co-exist.	0
+12	32	listen	shuffled	1162690.116375916	Will you please confirm government policy regarding waste removal?	Curiosity and mediocrity seldom co-exist.	0
+13	33	readRepeat	shuffled	1162696.166716958	They assume no burglar will ever enter here.	Be careful not to plow over the flower beds.	0
+13	33	listen	shuffled	1162700.733508583	They assume no burglar will ever enter here.	Be careful not to plow over the flower beds.	0
+14	34	readRepeat	shuffled	1162706.400151666	He will allow a rare lie.	Agricultural products are unevenly distributed.	0
+14	34	listen	shuffled	1162710.700813916	He will allow a rare lie.	Agricultural products are unevenly distributed.	0
+15	35	readRepeat	shuffled	1162713.98420175	Curiosity and mediocrity seldom co-exist.	She slipped and sprained her ankle on the steep slope.	0
+15	35	listen	shuffled	1162719.134448708	Curiosity and mediocrity seldom co-exist.	She slipped and sprained her ankle on the steep slope.	0
+16	36	readRepeat	shuffled	1162724.918377125	His sudden departure shocked the cast.	A big goat idly ambled through the farmyard.	0
+16	36	listen	shuffled	1162729.334832708	His sudden departure shocked the cast.	A big goat idly ambled through the farmyard.	0
+17	37	readRepeat	shuffled	1162734.935397541	She slipped and sprained her ankle on the steep slope.	His sudden departure shocked the cast.	0
+17	37	listen	shuffled	1162740.035307333	She slipped and sprained her ankle on the steep slope.	His sudden departure shocked the cast.	0
+18	38	readRepeat	shuffled	1162745.335740083	A big goat idly ambled through the farmyard.	Will you please confirm government policy regarding waste removal?	0
+18	38	listen	shuffled	1162750.602568916	A big goat idly ambled through the farmyard.	Will you please confirm government policy regarding waste removal?	0
+19	39	readRepeat	shuffled	1162757.47000025	Should giraffes be kept in small zoos?	They assume no burglar will ever enter here.	0
+19	39	listen	shuffled	1162761.670148	Should giraffes be kept in small zoos?	They assume no burglar will ever enter here.	0
+20	40	readRepeat	shuffled	1162767.252065125	We got drenched from the uninterrupted rain.	The angry boy answered but didn't look up.	0
+20	40	listen	shuffled	1162771.853745208	We got drenched from the uninterrupted rain.	The angry boy answered but didn't look up.	0
+
