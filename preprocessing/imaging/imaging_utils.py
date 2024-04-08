@@ -185,3 +185,179 @@ def gross_anat(fs_roi):
 			print(fs_roi[7:])
 			raise Exception(f'ROI {fs_roi} missing from condensed_rois dict, please add it')
 	return condensed_roi
+
+def calc_crtx_distance(patient, elec_xyz, hem='rh', clip_to='pial'):
+	'''
+	Calculates the distance of a given electrode from the cortical
+	surface in mm, then returns this value.
+	* clip_to: default to 'pial', surface you'd like to clip electrodes to. 'insula' currently only other
+			   supported mode as the majority of insula elecs are >4mm from the pial surface.
+	'''
+	if clip_to == 'pial':
+		cortex_verts = patient.get_surf(hem=hem)['vert']
+	elif clip_to == 'insula':
+		cortex_verts = patient.get_surf(hem=hem,roi="insula")['vert']
+	if len(elec_xyz.shape) != 2:
+		# expand dims on single elec
+		elec_xyz = np.expand_dims(elec_xyz,axis=0)
+	nchans = elec_xyz.shape[0]
+	d = np.zeros((nchans, cortex_verts.shape[0]))
+	for chan in np.arange(nchans):
+		d[chan,:] = np.sqrt((
+			elec_xyz[chan,0]-cortex_verts[:,0])**2+(elec_xyz[chan,1]-cortex_verts[:,1])**2+(elec_xyz[chan,2]-cortex_verts[:,2])**2
+		)
+	# vert_inds = np.argmin(d, axis=1)
+	vert_dist = np.min(d, axis=1)
+	# nearest_verts = cortex_verts[vert_inds,:]
+	return vert_dist
+
+def clip_4mm_elecs(patient, hem='rh', elecfile_prefix="TDT_elecs_all",
+	elecmatrix=None, anatomy=None, debug=False, return_idxs=False, clip_to="pial"):
+	'''
+	Clips electrodes according to hemisphere. For subcortical/whitematter electrodes,
+	prunes any that are >4mm from the surface of the cortex as these have a steep
+	drop-off in high gamma activity: https://iopscience.iop.org/article/10.1088/1741-2560/13/5/056013/pdf
+	* clip_to: default to 'pial', surface you'd like to clip electrodes to. 'insula' currently only other
+			   supported mode as the majority of insula elecs are >4mm from the pial surface.
+	'''
+	if debug:
+		print(patient.subj)
+	if elecmatrix is None and anatomy is None:
+		all_xyz = patient.get_elecs(elecfile_prefix=elecfile_prefix)['elecmatrix']
+		all_anat = patient.get_elecs(elecfile_prefix=elecfile_prefix)['anatomy']
+	else:
+		all_xyz = elecmatrix
+		all_anat = anatomy
+	all_xyz, all_anat = clip_hem_elecs(patient, hem=hem, elecfile_prefix=elecfile_prefix,
+		elecmatrix=all_xyz, anatomy=all_anat)
+	elecmatrix, anatomy, idxs = [], [], []
+	for i,a in enumerate(all_anat):
+		roi = gross_anat(a[3][0])
+		if roi in ['subcort','whitematter','outside_brain']:
+			# Calculate distance to cortical surface
+			distance = calc_crtx_distance(patient, all_xyz[i], clip_to=clip_to)[0]
+			if debug:
+				print(f"Electrode {a[0][0]} is {distance} mm from {clip_to}")
+			if distance <= 4:
+				elecmatrix.append(all_xyz[i])
+				anatomy.append(a)
+				idxs.append(i)
+		else:
+			elecmatrix.append(all_xyz[i])
+			anatomy.append(a)
+			idxs.append(i)
+	if return_idxs:
+		return np.array(elecmatrix), np.array(anatomy), idxs
+	else:
+		return np.array(elecmatrix), np.array(anatomy)
+
+def clip_outside_brain_elecs(patient,elecmatrix=None,anatomy=None,
+	hem='rh',force_include=[],elecfile_prefix="TDT_elecs_all",return_idxs=False):
+	'''
+	Cross-references patient electrodes with "IN_BOLT" textfile and returns an array
+	excluding electrodes specified as outside the brain (i.e., excludes electrodes in
+	that textfile). Defaults to checking all available electrodes for a patient but can
+	be used with a subset of electrodes if `elecmatrix` and `anatomy` are passed as args.
+	* force_include: a list of electrode names that are to be returned even if they are present
+					 in the exclusionary "IN_BOLT" textfile.
+	'''
+	if type(force_include) == str:
+		warnings.warn("Please pass force_include elecs as a list, not str. Attempting to automatically format as list now, but this may cause issues!")
+		force_include = list(force_include)
+	if elecmatrix is None and anatomy is None:
+		print("Loading all electrodes from patient")
+		all_xyz, all_anat = clip_hem_elecs(patient,hem=hem,elecfile_prefix=elecfile_prefix)
+	else:
+		print("Using a specified subset of patient electrodes")
+		all_xyz = elecmatrix
+		all_anat = anatomy
+	ch_names = [a[0][0] for a in all_anat]
+	subj_dir = patient.subj_dir
+	subj = patient.subj
+	in_bolt_fpath = os.path.join(subj_dir,subj,"elecs",f"{subj.replace('_complete','')}_IN_BOLT.txt")
+	if not os.path.isfile(in_bolt_fpath):
+		raise Exception(f"Could not locate {subj.replace('_complete','')}_IN_BOLT.txt. Please make sure this file exists before running this script.")
+	elecs_in_bolt = np.loadtxt(in_bolt_fpath, dtype=str, skiprows=1)
+	if len(elecs_in_bolt.shape) > 0:
+		if elecs_in_bolt.shape[0] != 0:
+			elecs_in_bolt = list(elecs_in_bolt)
+			no_elecs_in_bolt = False
+		else:
+			no_elecs_in_bolt = True
+	else:
+		elecs_in_bolt = [str(elecs_in_bolt)]
+		no_elecs_in_bolt = False
+	if no_elecs_in_bolt:
+		warnings.warn(f"Subject {subj.replace('_complete','')} has no electrodes in bolt, skipping...")
+		if return_idxs:
+			return all_xyz, all_anat, None
+		else:
+			return all_xyz, all_anat
+	else:
+		elecmatrix, anatomy, idxs, drop_elecs = [], [], [], []
+		for i,ch in enumerate(ch_names):
+			if ch in elecs_in_bolt and ch not in force_include:
+				drop_elecs.append(ch)
+			else:
+				elecmatrix.append(all_xyz[i])
+				anatomy.append(all_anat[i])
+				idxs.append(i)
+		if len(drop_elecs) > 0:
+			print(f"Dropping {len(drop_elecs)} channels classified as outside the brain: {drop_elecs}...")
+		if return_idxs:
+			return np.array(elecmatrix), np.array(anatomy), idxs
+		else:
+			return np.array(elecmatrix), np.array(anatomy)
+
+def load_template_brain(imaging_path=None, template_name="cvs_avg35_inMNI152",inflated=False,hem='rh'):
+	'''
+	Loads the template brain for a given hemisphere.
+	'''
+	if imaging_path is not None:
+		patient = img_pipe.freeCoG(subj=template_name, hem=hem, subj_dir=imaging_path)
+	else:
+		patient = img_pipe.freeCoG(subj=template_name, hem=hem)
+	if inflated:
+		pial = patient.get_surf(hem=hem,roi="inflated")
+		curv = load_curvature(patient,hem)
+		# threshold curvature to be binary
+		curv[np.where(curv<=0)[0]] = -1
+		curv[np.where(curv>0)[0]] = 1
+		return pial, curv
+	else:
+		pial = patient.get_surf(hem=hem)
+		return pial, None
+
+def color_by_roi(anat,mode='rgb_float',
+	cmap = {
+		'frontal' : '#4b72db', # blue
+		'temporal' : '#84e16c', # green
+		'parietal' : '#9c53b7', # purple
+		'occipital' : '#d0c358', # yellow
+		'precentral' : '#6ec2d5', # cyan
+		'postcentral' : '#cb4779', # magenta
+		'insula' : '#e14333', # red
+		'subcort' : '#b0b0b0', # dark grey
+		'whitematter' : '#5a5a5a', # light grey
+		'outside_brain' : '#262626' # black
+	}):
+	'''
+	Takes a list of electrodes and colors them by anatomy.
+	* mode: choose from:
+		- 'hex' : returns hex value
+		- 'rgb_int' : returns integer based RGB value (0-255)
+		- 'rgb_float' : returns float-based RGB value (0.-1.), the img_pipe el_add default
+	'''
+	colors = []
+	for row in anat:
+		ch_name = row[0]
+		fs_roi = row[3][0]
+		roi = gross_anat(fs_roi)
+		if mode == 'hex':
+			colors.append(cmap[roi])
+		elif mode == 'rgb_int':
+			colors.append(ImageColor.getcolor(cmap[roi],"RGB"))
+		elif mode == 'rgb_float':
+			rgb_tuple = ImageColor.getcolor(cmap[roi],"RGB")
+			colors.append(tuple((rgb_tuple[0]/255,rgb_tuple[1]/255,rgb_tuple[2]/255)))
+	return np.array(colors)
