@@ -1,5 +1,5 @@
 ## kurteff2024
-This is a repo containing the necessary code to reproduce every analysis, result, and figure in Kurteff et al., "Processing of auditory feedback in perisylvian and insular cortex." The paper is available as a preprint at **LINK** and is published at **LINK.** The code in this repo is complement to an OpenNeuro BIDS dataset which you can download at **LINK**.
+This is a repo containing the necessary code to reproduce every analysis, result, and figure in Kurteff et al., "Processing of auditory feedback in perisylvian and insular cortex." The paper is available as a preprint on [bioRxiv](http://dx.doi.org/10.1101/2024.05.14.593257) and is published at **LINK.**
 
 Most of the code is Python-based, with a few exceptions:
 
@@ -22,7 +22,7 @@ To fully recreate all data, I would suggest running through the folders in this 
     * `analysis/speechmotor` contains the code for analyzing the speech motor control task.
 * `figures` contains code for reproducing each panel of each figure. PDFs are not included to save storage, but will be populated upon running the scripts. Prerequisites for each panel are listed in the preamble of each Jupyter notebook.
 * `stats` contains code for reproducing the statistical analyses.
-    * `stats/bootstraps` contains code for calculating statistical significance through bootstrap _t_-test.
+    * `stats/bootstraps_and_permutations/` contains code for calculating statistical significance through bootstrap and permutation _t_-tests.
     * `stats/lme` contains code for generating the necessary csv files for, and running, linear mixed-effects models.
 * `task` isn't necessary to run if you wish to replicate the results using the OpenNeuro dataset, but rather contains the code used to create the task administered to the participants during data collection.
     * `task/mocha` contains the base task which uses stimuli from the MOCHA-TIMIT corpus (Wrench 1989).
