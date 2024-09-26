@@ -1,0 +1,1 @@
+Extended Data Figure 2-2 can be generated using the single electrode plots in the figure 2 notebook and the recon script in this folder. Everything else was assembled in Illustrator, so there is no dedicated notebook for this figure.

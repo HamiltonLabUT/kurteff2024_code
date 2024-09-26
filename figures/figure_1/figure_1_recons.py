@@ -39,35 +39,60 @@ for s in subjs:
 	if sum(elecs[:,0] < 0) >= 1:
 		hems[s].append('lh')
 
-# read pandas
-figure_df = pd.read_csv(os.path.join(git_path,"figures","figure_1","csv","figure_1_cmap.csv"))
-n_subjs = np.unique(np.array(figure_df['subj'].values)).shape[0]
 for hem in ['lh','rh']:
-	hem_df = figure_df.loc[figure_df['hem']==hem]
-	elecs = np.vstack((hem_df['x'],hem_df['y'],hem_df['z'])).T
-	colors = np.vstack((hem_df['r'],hem_df['g'],hem_df['b'])).T
-	# load template
+	hsubjs = [s for s in subjs if hem in hems[s]]
+	patient = img_pipe.freeCoG(subj="cvs_avg35_inMNI152",hem=hem)
 	pial, curv = imaging_utils.load_template_brain(hem=hem, inflated=True)
-	# Plot
-	azimuth = -5 if hem == 'rh' else 175
-	mesh, mlab = ctmr_gauss_plot(tri=pial['tri'],vert=pial['vert'],
-						   brain_color=curv, cmap=cm.gray_r, vmin=-2, vmax=8, opacity=1., bgcolor=(1.,1.,1.))
-	el_add(elecs, color=colors, msize=5, labels=None)
-	# Save screenshot
-	mlab.view(azimuth=azimuth, elevation=90, distance=400)
-	time.sleep(1)
-	GUI().process_events()
-	time.sleep(1)
-	arr = mlab.screenshot(antialiased=True)
-	fig = plt.figure(figsize=(20,20))
-	arr, xoff, yoff = remove_whitespace(arr)
-	pl.imshow(arr, aspect='equal')
-	plt.axis('off')
-	plt.tight_layout()
-	plt.savefig(os.path.join(git_path,"figures","figure_1","mayavi_ss",
-		f"{hem}_recon_{n_subjs}.png"), transparent=True)
-	mlab.close()
-	time.sleep(1)
-	GUI().process_events()
-	time.sleep(1)
-	print(hem, "Screenshot saved")
+	elecs, anat, all_labels, colors, weights = [], [], [], [], []
+	for s in hsubjs:
+		pt = img_pipe.freeCoG(f"{s}_complete",subj_dir=data_path,hem=hem)
+		e, a = imaging_utils.clip_4mm_elecs(pt, hem=hem, elecfile_prefix="TDT_elecs_all_warped")
+		e, a = imaging_utils.clip_outside_brain_elecs(pt,elecmatrix=e,anatomy=a,hem=hem,elecfile_prefix="TDT_elecs_all_warped")
+		if len(e) > 0:
+			elecs.append(gkip.convert_elecs_to_inflated(pt,e,hem=hem,anat=a,warp=True))
+			anat.append(a)
+	# Done looping through subjs now, concatenate lists into big arrays for plotting
+	if len(elecs) > 0:
+		elecs = np.vstack((elecs))
+		anat = np.vstack((anat))
+		# Plotting params
+		azimuth = 175 if hem == 'rh' else -5
+		medial_azimuth = -5 if hem == 'rh' else 175
+		elec_color = imaging_utils.color_by_roi(anat)
+		mesh, mlab = ctmr_gauss_plot(tri=pial['tri'], vert=pial['vert'],
+			brain_color=curv, cmap=cm.gray_r, vmin=-2, vmax=8, opacity=1., bgcolor=(1.,1.,1.))
+		el_add(elecs, msize=5, labels=None, color=elec_color)
+		# Lateral screenshot
+		mlab.view(azimuth=azimuth, elevation=90, distance=400)
+		time.sleep(1)
+		GUI().process_events()
+		time.sleep(1)
+		arr = mlab.screenshot(antialiased=True)
+		fig = plt.figure(figsize=(20,20))
+		arr, xoff, yoff = remove_whitespace(arr)
+		pl.imshow(arr, aspect='equal')
+		plt.axis('off')
+		plt.tight_layout()
+		plt.savefig(os.path.join(git_path,"figures","figure_1","mayavi_screenshots",
+			f"{hem}_lateral.png"),transparent=True)
+		mlab.close()
+		time.sleep(1)
+		GUI().process_events()
+		time.sleep(1)
+		# Medial screenshot
+		mlab.view(azimuth=medial_azimuth, elevation=90, distance=400)
+		time.sleep(1)
+		GUI().process_events()
+		time.sleep(1)
+		arr = mlab.screenshot(antialiased=True)
+		fig = plt.figure(figsize=(20,20))
+		arr, xoff, yoff = remove_whitespace(arr)
+		pl.imshow(arr, aspect='equal')
+		plt.axis('off')
+		plt.tight_layout()
+		plt.savefig(os.path.join(git_path,"figures","figure_1","mayavi_screenshots",
+			f"{hem}_medial.png"),transparent=True)
+		mlab.close()
+		time.sleep(1)
+		GUI().process_events()
+		time.sleep(1)

@@ -40,7 +40,7 @@ for s in subjs:
 		hems[s].append('lh')
 
 # read pandas
-figure_df = pd.read_csv(os.path.join(git_path,"figures","figure_2","csv","figure_2_cmap.csv"))
+figure_df = pd.read_csv(os.path.join(git_path,"figures","figure_6","csv","figure_6_cmap.csv"))
 n_subjs = np.unique(np.array(figure_df['subj'].values)).shape[0]
 for hem in ['lh','rh']:
 	hem_df = figure_df.loc[figure_df['hem']==hem]
@@ -64,7 +64,7 @@ for hem in ['lh','rh']:
 	pl.imshow(arr, aspect='equal')
 	plt.axis('off')
 	plt.tight_layout()
-	plt.savefig(os.path.join(git_path,"figures","figure_2","mayavi_ss",
+	plt.savefig(os.path.join(git_path,"figures","figure_6","mayavi_ss",
 		f"{hem}_recon_{n_subjs}.png"), transparent=True)
 	mlab.close()
 	time.sleep(1)

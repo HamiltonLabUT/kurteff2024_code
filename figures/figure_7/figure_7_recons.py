@@ -41,9 +41,9 @@ for s in subjs:
 
 # read pandas
 recon_types = ['model1-model2','model1-model3','model1-model4']
-figure_dfs = [pd.read_csv(os.path.join(git_path,"figures","figure_5","csv","figure_5_cmap_across_models_model1-model2.csv")),
-              pd.read_csv(os.path.join(git_path,"figures","figure_5","csv","figure_5_cmap_across_models_model1-model3.csv")),
-              pd.read_csv(os.path.join(git_path,"figures","figure_5","csv","figure_5_cmap_across_models_model1-model4.csv"))]
+figure_dfs = [pd.read_csv(os.path.join(git_path,"figures","figure_7","csv","figure_7_cmap_across_models_model1-model2.csv")),
+              pd.read_csv(os.path.join(git_path,"figures","figure_7","csv","figure_7_cmap_across_models_model1-model3.csv")),
+              pd.read_csv(os.path.join(git_path,"figures","figure_7","csv","figure_7_cmap_across_models_model1-model4.csv"))]
 
 for i,figure_df in enumerate(figure_dfs):
 	n_subjs = np.unique(np.array(figure_df['subj'].values)).shape[0]
@@ -69,7 +69,7 @@ for i,figure_df in enumerate(figure_dfs):
 		pl.imshow(arr, aspect='equal')
 		plt.axis('off')
 		plt.tight_layout()
-		plt.savefig(os.path.join(git_path,"figures","figure_5","mayavi_ss",
+		plt.savefig(os.path.join(git_path,"figures","figure_7","mayavi_ss",
 			f"{hem}_recon_{n_subjs}_{recon_types[i]}.png"), transparent=True)
 		mlab.close()
 		time.sleep(1)

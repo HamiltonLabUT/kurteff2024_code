@@ -40,11 +40,10 @@ for s in subjs:
 		hems[s].append('lh')
 
 # read pandas
-recon_types = ['within_clust_1','within_clust_2','within_clust_3','across_clust_1-2']
-figure_dfs = [pd.read_csv(os.path.join(git_path,"figures","figure_3","csv","figure_3_cmap_within_clust_1.csv")),
-              pd.read_csv(os.path.join(git_path,"figures","figure_3","csv","figure_3_cmap_within_clust_2.csv")),
-              pd.read_csv(os.path.join(git_path,"figures","figure_3","csv","figure_3_cmap_within_clust_3.csv")),
-              pd.read_csv(os.path.join(git_path,"figures","figure_3","csv","figure_3_cmap_across_clust_1-2.csv"))]
+recon_types = ['perception_only','production_only','dual_onset']
+figure_dfs = [pd.read_csv(os.path.join(git_path,"figures","figure_3","csv","figure_3_cmap_spkr.csv")),
+              pd.read_csv(os.path.join(git_path,"figures","figure_3","csv","figure_3_cmap_mic.csv")),
+              pd.read_csv(os.path.join(git_path,"figures","figure_3","csv","figure_3_cmap_dual_onset.csv"))]
 
 for i,figure_df in enumerate(figure_dfs):
 	n_subjs = np.unique(np.array(figure_df['subj'].values)).shape[0]

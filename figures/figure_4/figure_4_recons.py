@@ -40,34 +40,40 @@ for s in subjs:
 		hems[s].append('lh')
 
 # read pandas
-figure_df = pd.read_csv(os.path.join(git_path,"figures","figure_4","csv","figure_4_cmap.csv"))
-n_subjs = np.unique(np.array(figure_df['subj'].values)).shape[0]
-for hem in ['lh','rh']:
-	hem_df = figure_df.loc[figure_df['hem']==hem]
-	elecs = np.vstack((hem_df['x'],hem_df['y'],hem_df['z'])).T
-	colors = np.vstack((hem_df['r'],hem_df['g'],hem_df['b'])).T
-	# load template
-	pial, curv = imaging_utils.load_template_brain(hem=hem, inflated=True)
-	# Plot
-	azimuth = -5 if hem == 'rh' else 175
-	mesh, mlab = ctmr_gauss_plot(tri=pial['tri'],vert=pial['vert'],
-						   brain_color=curv, cmap=cm.gray_r, vmin=-2, vmax=8, opacity=1., bgcolor=(1.,1.,1.))
-	el_add(elecs, color=colors, msize=5, labels=None)
-	# Save screenshot
-	mlab.view(azimuth=azimuth, elevation=90, distance=400)
-	time.sleep(1)
-	GUI().process_events()
-	time.sleep(1)
-	arr = mlab.screenshot(antialiased=True)
-	fig = plt.figure(figsize=(20,20))
-	arr, xoff, yoff = remove_whitespace(arr)
-	pl.imshow(arr, aspect='equal')
-	plt.axis('off')
-	plt.tight_layout()
-	plt.savefig(os.path.join(git_path,"figures","figure_4","mayavi_ss",
-		f"{hem}_recon_{n_subjs}.png"), transparent=True)
-	mlab.close()
-	time.sleep(1)
-	GUI().process_events()
-	time.sleep(1)
-	print(hem, "Screenshot saved")
+recon_types = ['within_clust_1','within_clust_2','within_clust_3','across_clust_1-2']
+figure_dfs = [pd.read_csv(os.path.join(git_path,"figures","figure_4","csv","figure_4_cmap_within_clust_1.csv")),
+              pd.read_csv(os.path.join(git_path,"figures","figure_4","csv","figure_4_cmap_within_clust_2.csv")),
+              pd.read_csv(os.path.join(git_path,"figures","figure_4","csv","figure_4_cmap_within_clust_3.csv")),
+              pd.read_csv(os.path.join(git_path,"figures","figure_4","csv","figure_4_cmap_across_clust_1-2.csv"))]
+
+for i,figure_df in enumerate(figure_dfs):
+	n_subjs = np.unique(np.array(figure_df['subj'].values)).shape[0]
+	for hem in ['lh','rh']:
+		hem_df = figure_df.loc[figure_df['hem']==hem]
+		elecs = np.vstack((hem_df['x'],hem_df['y'],hem_df['z'])).T
+		colors = np.vstack((hem_df['r'],hem_df['g'],hem_df['b'])).T
+		# load template
+		pial, curv = imaging_utils.load_template_brain(hem=hem, inflated=True)
+		# Plot
+		azimuth = -5 if hem == 'rh' else 175
+		mesh, mlab = ctmr_gauss_plot(tri=pial['tri'],vert=pial['vert'],
+							   brain_color=curv, cmap=cm.gray_r, vmin=-2, vmax=8, opacity=1., bgcolor=(1.,1.,1.))
+		el_add(elecs, color=colors, msize=5, labels=None)
+		# Save screenshot
+		mlab.view(azimuth=azimuth, elevation=90, distance=400)
+		time.sleep(1)
+		GUI().process_events()
+		time.sleep(1)
+		arr = mlab.screenshot(antialiased=True)
+		fig = plt.figure(figsize=(20,20))
+		arr, xoff, yoff = remove_whitespace(arr)
+		pl.imshow(arr, aspect='equal')
+		plt.axis('off')
+		plt.tight_layout()
+		plt.savefig(os.path.join(git_path,"figures","figure_4","mayavi_ss",
+			f"{hem}_recon_{n_subjs}_{recon_types[i]}.png"), transparent=True)
+		mlab.close()
+		time.sleep(1)
+		GUI().process_events()
+		time.sleep(1)
+		print(hem, "Screenshot saved")

@@ -74,7 +74,7 @@ for s in subjs:
 			pl.imshow(arr, aspect='equal')
 			plt.axis('off')
 			plt.tight_layout()
-			plt.savefig(os.path.join(git_path,"figures","supplemental_figure_2","mayavi_screenshots",
+			plt.savefig(os.path.join(git_path,"figures","extended_figure_1-1","mayavi_screenshots",
 				f"{s}_{hem}_lateral.png"), transparent=True)
 			mlab.close()
 			time.sleep(1)
