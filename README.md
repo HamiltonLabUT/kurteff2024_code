@@ -1,5 +1,5 @@
 ## kurteff2024
-This is a repo containing the necessary code to reproduce every analysis, result, and figure in Kurteff et al., "Processing of auditory feedback in perisylvian and insular cortex." The paper is available as a preprint on [bioRxiv](http://dx.doi.org/10.1101/2024.05.14.593257) and is published at **LINK.**
+This is a repo containing the necessary code to reproduce every analysis, result, and figure in Kurteff et al., "Processing of auditory feedback in perisylvian and insular cortex." The paper is available as a preprint on [bioRxiv](http://dx.doi.org/10.1101/2024.05.14.593257) and is published in [J Neurosci](http://dx.doi.org/10.1523/JNEUROSCI.1109-24.2024).
 
 Most of the code is Python-based, with a few exceptions:
 
